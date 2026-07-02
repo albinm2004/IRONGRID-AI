@@ -1,0 +1,1577 @@
+[
+  {
+    "id": "about_001",
+    "category": "About the Gym",
+    "subcategory": "Mission",
+    "question": "What is IRONGRID's mission?",
+    "answer": "IRONGRID's mission is to make premium fitness accessible, inclusive, and transformative. We believe every individual deserves a world-class training environment regardless of their fitness level, age, or background."
+  },
+  {
+    "id": "about_002",
+    "category": "About the Gym",
+    "subcategory": "Vision",
+    "question": "What is IRONGRID's vision?",
+    "answer": "Our vision is to become the most trusted and loved fitness brand in India by building a community where health, discipline, and personal growth are celebrated every single day."
+  },
+  {
+    "id": "about_003",
+    "category": "About the Gym",
+    "subcategory": "History",
+    "question": "When was IRONGRID founded?",
+    "answer": "IRONGRID was founded in 2019 by a group of fitness enthusiasts and certified professionals who saw a gap in the market for a gym that combines premium equipment with an inclusive community atmosphere. We started with a single location and have grown through word-of-mouth and member referrals."
+  },
+  {
+    "id": "about_004",
+    "category": "About the Gym",
+    "subcategory": "Brand Story",
+    "question": "What is the story behind IRONGRID?",
+    "answer": "The name IRONGRID represents the structured approach we take to fitness. IRON symbolizes strength and resilience, while GRID represents the systematic, organized framework we use for training. Our founders wanted to create a space where beginners feel welcome and advanced lifters feel challenged."
+  },
+  {
+    "id": "about_005",
+    "category": "About the Gym",
+    "subcategory": "Values",
+    "question": "What are IRONGRID's core values?",
+    "answer": "IRONGRID operates on five core values: (1) Inclusivity — everyone is welcome regardless of fitness level, (2) Safety — proper form and injury prevention are non-negotiable, (3) Community — we support and motivate each other, (4) Excellence — premium equipment and world-class facilities, (5) Transparency — no hidden fees, no gimmicks."
+  },
+  {
+    "id": "about_006",
+    "category": "About the Gym",
+    "subcategory": "Philosophy",
+    "question": "What is IRONGRID's fitness philosophy?",
+    "answer": "We believe fitness is a lifelong journey, not a quick fix. Our philosophy centers on progressive overload, consistency, proper nutrition, adequate recovery, and mental well-being. We don't promote shortcuts, extreme diets, or unsustainable training methods."
+  },
+  {
+    "id": "about_007",
+    "category": "About the Gym",
+    "subcategory": "Target Customers",
+    "question": "Who is IRONGRID designed for?",
+    "answer": "IRONGRID is designed for everyone — complete beginners starting their fitness journey, intermediate gym-goers looking to level up, advanced athletes and bodybuilders, working professionals who need flexible timings, seniors looking for safe exercise, women who want a comfortable training environment, and students on a budget."
+  },
+  {
+    "id": "about_008",
+    "category": "About the Gym",
+    "subcategory": "Unique Selling Points",
+    "question": "What makes IRONGRID different from other gyms?",
+    "answer": "IRONGRID stands out with: (1) 24/7 keycard access for Premium and Elite members, (2) certified trainers included in membership, (3) a dedicated women's training section, (4) full recovery zone with massage guns and foam rollers, (5) a protein café and smoothie bar on-site, (6) body composition analysis and nutrition consultations, (7) no long-term lock-in contracts, and (8) a 7-day free trial for new members."
+  },
+  {
+    "id": "about_009",
+    "category": "About the Gym",
+    "subcategory": "Location",
+    "question": "Where is IRONGRID located?",
+    "answer": "IRONGRID is located in the heart of the city with easy access via public transport. We have ample parking space for both cars and two-wheelers. The exact address and Google Maps link are available on our website and social media pages. Please contact the front desk for directions."
+  },
+  {
+    "id": "about_010",
+    "category": "About the Gym",
+    "subcategory": "Contact",
+    "question": "How can I contact IRONGRID?",
+    "answer": "You can reach us by visiting the gym in person, calling our front desk during operating hours, emailing us through our website contact form, or messaging us on our official Instagram and Facebook pages. Our front desk team is always happy to help."
+  },
+  {
+    "id": "membership_basic_001",
+    "category": "Membership",
+    "subcategory": "Basic Plan",
+    "question": "What is the Basic membership plan?",
+    "answer": "The BASIC plan costs ₹1,499 per month. It includes gym floor access during standard operating hours (Mon-Sat 5 AM to 11 PM, Sunday 6 AM to 9 PM), locker access during visits, and a one-time fitness assessment when you join."
+  },
+  {
+    "id": "membership_basic_002",
+    "category": "Membership",
+    "subcategory": "Basic Plan",
+    "question": "What is included in the Basic plan?",
+    "answer": "The Basic plan at ₹1,499/month includes: access to all gym floor equipment during standard hours, locker access, a one-time fitness assessment on joining, access to the stretching area, and use of drinking water stations. It does not include group classes, personal training sessions, or 24/7 access."
+  },
+  {
+    "id": "membership_premium_001",
+    "category": "Membership",
+    "subcategory": "Premium Plan",
+    "question": "What is the Premium membership plan?",
+    "answer": "The PREMIUM plan costs ₹2,499 per month and is our most popular option. It includes 24/7 keycard access, all group fitness classes (yoga, Zumba, HIIT, CrossFit, pilates, etc.), 1 personal training session per month, recovery area access with foam rollers and massage guns, and locker access."
+  },
+  {
+    "id": "membership_premium_002",
+    "category": "Membership",
+    "subcategory": "Premium Plan",
+    "question": "Why is the Premium plan the most popular?",
+    "answer": "The Premium plan is our most popular because it offers the best value. For ₹2,499/month, you get 24/7 access (perfect for early risers and night owls), all group classes included, a monthly personal training session, and recovery zone access. It's ideal for committed gym-goers who want flexibility and variety."
+  },
+  {
+    "id": "membership_elite_001",
+    "category": "Membership",
+    "subcategory": "Elite Plan",
+    "question": "What is the Elite membership plan?",
+    "answer": "The ELITE plan costs ₹3,999 per month. It includes everything in the Premium plan plus: unlimited personal training sessions, biweekly body composition analysis, monthly nutrition consultation with a certified nutritionist, and 2 guest passes per month so you can bring friends or family."
+  },
+  {
+    "id": "membership_elite_002",
+    "category": "Membership",
+    "subcategory": "Elite Plan",
+    "question": "Is the Elite plan worth it?",
+    "answer": "The Elite plan is ideal for members who want maximum support. Unlimited personal training alone would cost far more if purchased separately. Add in body composition analysis, nutrition consultations, and guest passes, and it represents significant value for anyone serious about their fitness transformation."
+  },
+  {
+    "id": "membership_annual_001",
+    "category": "Membership",
+    "subcategory": "Annual Plan",
+    "question": "Do you have annual membership plans?",
+    "answer": "Yes! Annual plans are available for all tiers (Basic, Premium, and Elite) and come with 2 months free — meaning you pay for 10 months and get 12. Annual Basic is ₹14,990, Annual Premium is ₹24,990, and Annual Elite is ₹39,990. This is the most cost-effective way to train at IRONGRID."
+  },
+  {
+    "id": "membership_corporate_001",
+    "category": "Membership",
+    "subcategory": "Corporate Plan",
+    "question": "Do you have corporate membership plans?",
+    "answer": "Yes, we offer corporate memberships for companies that want to provide fitness benefits to their employees. Corporate plans come with volume discounts (typically 15-25% off depending on the number of members), a dedicated account manager, and flexible billing options. Contact our front desk for a custom quote for your organization."
+  },
+  {
+    "id": "membership_student_001",
+    "category": "Membership",
+    "subcategory": "Student Plan",
+    "question": "Do you offer student discounts?",
+    "answer": "Yes! Students get a flat 10% discount on any membership plan with a valid student ID. This applies to both monthly and annual plans. A student Basic plan would be ₹1,349/month, Premium would be ₹2,249/month, and Elite would be ₹3,599/month."
+  },
+  {
+    "id": "membership_couple_001",
+    "category": "Membership",
+    "subcategory": "Couple Plan",
+    "question": "Do you have a couple's membership?",
+    "answer": "Yes, we offer couple memberships where both partners sign up together and get 15% off each membership. Both members must be on the same plan tier. This is a great option for couples who want to train together and save money."
+  },
+  {
+    "id": "membership_family_001",
+    "category": "Membership",
+    "subcategory": "Family Plan",
+    "question": "Do you have family membership plans?",
+    "answer": "Yes, our family plan allows 3 or more family members to sign up together with a 20% discount on each membership. All family members must be on the same tier. Family members must be immediate family (spouse, children, parents, siblings) and each gets their own membership card and locker access."
+  },
+  {
+    "id": "membership_trial_001",
+    "category": "Membership",
+    "subcategory": "Trial Pass",
+    "question": "Can I try the gym before joining?",
+    "answer": "Absolutely! We offer a 7-day free trial for all new visitors. During your trial, you get full access to the gym floor, equipment, and even one group class. No credit card required — just bring a valid ID, and we'll set you up. It's a great way to experience IRONGRID before committing."
+  },
+  {
+    "id": "membership_trial_002",
+    "category": "Membership",
+    "subcategory": "Trial Pass",
+    "question": "How do I sign up for the free trial?",
+    "answer": "Simply walk into IRONGRID during operating hours with a valid government-issued photo ID. Our front desk team will register you for the 7-day free trial on the spot. No advance booking or payment required. You can also call or message us to reserve your trial slot."
+  },
+  {
+    "id": "membership_daypass_001",
+    "category": "Membership",
+    "subcategory": "Day Pass",
+    "question": "Can I get a day pass?",
+    "answer": "Yes, we offer day passes at ₹299 per day. This gives you full gym floor access, locker usage, and shower facilities for that day. Day passes are great for travelers or occasional visitors. Available at the front desk — no advance booking needed."
+  },
+  {
+    "id": "membership_weekpass_001",
+    "category": "Membership",
+    "subcategory": "Weekly Pass",
+    "question": "Do you have a weekly pass?",
+    "answer": "Yes, we offer a weekly pass at ₹799 for 7 consecutive days. It includes full gym floor access, locker access, and use of all basic amenities. It's a great option if you're visiting the city or want to test the gym for a full week beyond the free trial."
+  },
+  {
+    "id": "membership_guest_001",
+    "category": "Membership",
+    "subcategory": "Guest Pass",
+    "question": "Can I bring a guest or friend?",
+    "answer": "Elite members get 2 complimentary guest passes per month. Other members can purchase guest passes at ₹249 per visit at the front desk. Guests must be accompanied by the member, sign a liability waiver, and follow all gym rules. Guests under 16 must be accompanied by a parent or guardian."
+  },
+  {
+    "id": "membership_renewal_001",
+    "category": "Membership",
+    "subcategory": "Renewal",
+    "question": "How do I renew my membership?",
+    "answer": "Memberships can be renewed at the front desk, online through our member portal, or via UPI/bank transfer. We send a reminder 7 days before your membership expires. If you renew before expiry, you keep your membership benefits uninterrupted. We also offer auto-renewal for your convenience."
+  },
+  {
+    "id": "membership_upgrade_001",
+    "category": "Membership",
+    "subcategory": "Upgrade",
+    "question": "Can I upgrade my membership plan?",
+    "answer": "Yes, you can upgrade your plan at any time. Visit the front desk or call us, and we'll prorate the remaining days on your current plan and adjust the cost of the upgrade accordingly. For example, if you're on Basic and want to move to Premium mid-month, you'll only pay the difference."
+  },
+  {
+    "id": "membership_downgrade_001",
+    "category": "Membership",
+    "subcategory": "Downgrade",
+    "question": "Can I downgrade my membership?",
+    "answer": "Yes, you can downgrade your plan at the end of your current billing cycle. Visit the front desk to request a downgrade, and it will take effect from your next billing date. The downgraded plan benefits will apply from the new cycle onward."
+  },
+  {
+    "id": "membership_freeze_001",
+    "category": "Membership",
+    "subcategory": "Freeze Membership",
+    "question": "Can I freeze or pause my membership?",
+    "answer": "Yes, you can freeze your membership for up to 30 days per year at no extra charge. This is useful if you're traveling, recovering from an injury, or have personal commitments. Freezes beyond 30 days are available at ₹499/month. Visit the front desk or call us to freeze your membership — we need at least 3 days' advance notice."
+  },
+  {
+    "id": "membership_freeze_002",
+    "category": "Membership",
+    "subcategory": "Freeze Membership",
+    "question": "How does membership freeze work?",
+    "answer": "When you freeze your membership, your billing is paused and your expiry date is extended by the freeze duration. For example, if you freeze for 15 days, your membership end date moves forward by 15 days. You won't be able to access the gym during the freeze period."
+  },
+  {
+    "id": "membership_cancel_001",
+    "category": "Membership",
+    "subcategory": "Cancellation",
+    "question": "Can I cancel my membership?",
+    "answer": "Yes, you can cancel your monthly membership at any time with 7 days' notice before your next billing date. There are no cancellation fees for monthly plans. Annual plans can be cancelled with a 30-day notice, but the refund policy applies (see our refund policy for details). Visit the front desk to initiate cancellation."
+  },
+  {
+    "id": "membership_refund_001",
+    "category": "Membership",
+    "subcategory": "Refund Policy",
+    "question": "What is the refund policy?",
+    "answer": "Monthly memberships: No refund for the current month once billed, but you can cancel before the next cycle. Annual memberships: Refunds are prorated based on the number of unused full months remaining, minus a ₹1,500 early termination fee. Refunds are processed within 7-10 business days to the original payment method. The joining fee and any promotional discounts are non-refundable."
+  },
+  {
+    "id": "membership_payment_001",
+    "category": "Membership",
+    "subcategory": "Payment Methods",
+    "question": "What payment methods do you accept?",
+    "answer": "We accept: Cash, Credit/Debit cards (Visa, Mastercard, RuPay), UPI (Google Pay, PhonePe, Paytm), Net banking, Cheque (for annual plans), and Bank transfer (NEFT/IMPS). All digital payments are processed securely."
+  },
+  {
+    "id": "membership_emi_001",
+    "category": "Membership",
+    "subcategory": "EMI",
+    "question": "Can I pay in EMI or installments?",
+    "answer": "Yes, EMI options are available for annual plans through select credit cards (3, 6, or 12 month no-cost EMI on cards from major banks). We also offer our own in-house installment plan where you can split annual membership into 3 quarterly payments with a small processing fee of ₹299 per installment."
+  },
+  {
+    "id": "membership_gst_001",
+    "category": "Membership",
+    "subcategory": "GST",
+    "question": "Is GST included in the membership price?",
+    "answer": "Yes, all membership prices listed are inclusive of 18% GST. The amount shown on our plans is the final amount you pay — no hidden taxes or additional charges. We provide a GST-compliant invoice for every payment."
+  },
+  {
+    "id": "membership_discount_001",
+    "category": "Membership",
+    "subcategory": "Discounts",
+    "question": "What discounts and offers are currently available?",
+    "answer": "Current offers: (1) Joining fee of ₹999 is currently WAIVED (limited time), (2) Annual plans get 2 months free, (3) Students get 10% off with valid ID, (4) Couples get 15% off, (5) Family plans (3+) get 20% off, (6) Referral reward of ₹500 credit for each friend who joins. These offers may change — check with the front desk for the latest promotions."
+  },
+  {
+    "id": "membership_seasonal_001",
+    "category": "Membership",
+    "subcategory": "Seasonal Offers",
+    "question": "Do you run seasonal offers or festive discounts?",
+    "answer": "Yes! We run special promotions during New Year, Republic Day, Holi, Independence Day, Diwali, and other major festivals. These typically include waived joining fees, additional months free on annual plans, or bonus personal training sessions. Follow us on Instagram and Facebook to stay updated on flash sales and limited-time offers."
+  },
+  {
+    "id": "membership_referral_001",
+    "category": "Membership",
+    "subcategory": "Referral Rewards",
+    "question": "Is there a referral program?",
+    "answer": "Yes! Our referral program gives you ₹500 credit for every friend who signs up for a monthly plan, and ₹1,000 credit for every friend who signs up for an annual plan. There's no limit on referrals — some of our members have earned months of free membership through referrals alone. Your friend also gets ₹250 off their first month."
+  },
+  {
+    "id": "membership_loyalty_001",
+    "category": "Membership",
+    "subcategory": "Loyalty Program",
+    "question": "Do you have a loyalty program?",
+    "answer": "Yes! IRONGRID Rewards is our loyalty program. You earn points for every month of active membership (100 points/month for Basic, 200 for Premium, 300 for Elite), class attendance (10 points/class), and referrals. Points can be redeemed for merchandise, personal training sessions, smoothies at our café, or membership discounts. 1,000 points = ₹500 value."
+  },
+  {
+    "id": "facility_reception_001",
+    "category": "Facilities",
+    "subcategory": "Reception",
+    "question": "What can I expect at the reception?",
+    "answer": "Our reception area is staffed during all standard operating hours. The front desk team can help with membership inquiries, renewals, class bookings, trainer scheduling, guest passes, locker assignments, lost and found, and general questions. We aim to greet every member by name."
+  },
+  {
+    "id": "facility_changing_001",
+    "category": "Facilities",
+    "subcategory": "Changing Rooms",
+    "question": "Do you have changing rooms?",
+    "answer": "Yes, we have spacious, well-maintained changing rooms with private cubicles, full-length mirrors, hair dryers, and hooks for your belongings. Separate changing rooms are available for men and women. The changing rooms are cleaned multiple times a day."
+  },
+  {
+    "id": "facility_locker_001",
+    "category": "Facilities",
+    "subcategory": "Lockers",
+    "question": "Are lockers available?",
+    "answer": "Yes, secure lockers are available for all members to use during their visit. Lockers are operated with a personal combination lock that you set yourself. You must clear your locker before leaving. Overnight storage is not permitted unless you have a dedicated locker add-on (₹299/month for a permanently assigned locker)."
+  },
+  {
+    "id": "facility_shower_001",
+    "category": "Facilities",
+    "subcategory": "Showers",
+    "question": "Do you have showers?",
+    "answer": "Yes, we have clean shower facilities with hot and cold water, available in both men's and women's changing rooms. Shower gel and shampoo dispensers are provided. We recommend bringing your own towel, although towels can be rented at the front desk for ₹50."
+  },
+  {
+    "id": "facility_steam_001",
+    "category": "Facilities",
+    "subcategory": "Steam Room",
+    "question": "Do you have a steam room?",
+    "answer": "Yes, we have a steam room available for Premium and Elite members. It's a great way to relax muscles after a workout, improve circulation, and aid recovery. The steam room is available during standard operating hours and is cleaned and sanitized multiple times daily. Sessions are limited to 15 minutes per use during peak hours."
+  },
+  {
+    "id": "facility_sauna_001",
+    "category": "Facilities",
+    "subcategory": "Sauna",
+    "question": "Do you have a sauna?",
+    "answer": "Yes, we have a dry sauna available for Premium and Elite members. The sauna is maintained at a comfortable temperature and is ideal for post-workout relaxation and recovery. Available during standard hours. We recommend staying hydrated before and after use."
+  },
+  {
+    "id": "facility_parking_001",
+    "category": "Facilities",
+    "subcategory": "Parking",
+    "question": "Is parking available?",
+    "answer": "Yes, we have free parking for all members. We have dedicated parking spots for cars and a separate area for two-wheelers (bikes and scooters). The parking area is well-lit and covered by security cameras. During peak evening hours, parking may fill up quickly, so we recommend arriving early or using two-wheeler/public transport options."
+  },
+  {
+    "id": "facility_wifi_001",
+    "category": "Facilities",
+    "subcategory": "WiFi",
+    "question": "Do you have WiFi?",
+    "answer": "Yes, complimentary high-speed WiFi is available throughout the gym. The network name and password are displayed at the front desk and in the locker rooms. It's available for all members and trial users."
+  },
+  {
+    "id": "facility_water_001",
+    "category": "Facilities",
+    "subcategory": "Water Station",
+    "question": "Is drinking water available?",
+    "answer": "Yes, we have multiple RO-purified drinking water stations placed throughout the gym floor, near the cardio zone, the weights area, and the stretching zone. Both cold and room-temperature water are available. You can bring your own bottle to refill, and we also sell bottles at the front desk."
+  },
+  {
+    "id": "facility_cafe_001",
+    "category": "Facilities",
+    "subcategory": "Protein Café",
+    "question": "Do you have a café or food area?",
+    "answer": "Yes! Our in-house protein café serves protein shakes, smoothies, energy bars, healthy snacks, and light meals. We offer both vegetarian and non-vegetarian high-protein options. The café is located near the reception area and is open during standard gym hours. Prices range from ₹99 to ₹349."
+  },
+  {
+    "id": "facility_smoothie_001",
+    "category": "Facilities",
+    "subcategory": "Smoothie Bar",
+    "question": "Do you have a smoothie bar?",
+    "answer": "Yes, our smoothie bar is part of the protein café. We offer a variety of fresh fruit smoothies, protein blends, green smoothies, pre-workout drinks, and post-workout recovery shakes. Customizable options are available — you can add whey protein, creatine, peanut butter, oats, and other add-ons."
+  },
+  {
+    "id": "facility_lounge_001",
+    "category": "Facilities",
+    "subcategory": "Lounge",
+    "question": "Is there a lounge or waiting area?",
+    "answer": "Yes, we have a comfortable lounge area near the reception with seating, charging points, and a TV. It's a great spot to relax before or after your workout, wait for friends, or catch up on emails. The lounge has WiFi access and is open to all members."
+  },
+  {
+    "id": "facility_recovery_001",
+    "category": "Facilities",
+    "subcategory": "Recovery Zone",
+    "question": "Do you have a recovery zone?",
+    "answer": "Yes, our dedicated recovery zone is available for Premium and Elite members. It includes foam rollers, massage guns (Theragun-style), stretching mats, resistance bands for mobility work, lacrosse balls for myofascial release, and yoga blocks. It's a quieter area designed for post-workout cool-down and injury prevention."
+  },
+  {
+    "id": "facility_stretch_001",
+    "category": "Facilities",
+    "subcategory": "Stretching Area",
+    "question": "Is there a stretching area?",
+    "answer": "Yes, we have a dedicated stretching area open to all members with yoga mats, stretching mats, and ample floor space. It's located in a quieter section of the gym, away from heavy lifting zones. Full-length mirrors are available for form checks."
+  },
+  {
+    "id": "facility_functional_001",
+    "category": "Facilities",
+    "subcategory": "Functional Zone",
+    "question": "Is there a functional training zone?",
+    "answer": "Yes, we have a dedicated functional training zone with turf flooring, battle ropes, kettlebells, medicine balls, TRX suspension trainers, plyo boxes, resistance bands, sleds, and pull-up rigs. This area is perfect for HIIT, CrossFit-style workouts, athletic training, and circuit training."
+  },
+  {
+    "id": "facility_women_001",
+    "category": "Facilities",
+    "subcategory": "Women's Section",
+    "question": "Do you have a separate women's section?",
+    "answer": "Yes, we have a dedicated women-only training section with its own set of cardio machines, strength equipment, free weights, stretching area, and mirrors. It offers a comfortable and private space for women who prefer training separately. Female trainers are available in this section during all standard hours."
+  },
+  {
+    "id": "facility_kids_001",
+    "category": "Facilities",
+    "subcategory": "Kids Area",
+    "question": "Is there a kids area or childcare?",
+    "answer": "Yes, we have a supervised kids' play area where children aged 3-12 can stay while parents work out. It's available during standard hours (not 24/7 access hours). The area has toys, coloring books, and a TV with kid-friendly content. One staff member is always present. This service is complimentary for all members."
+  },
+  {
+    "id": "facility_accessibility_001",
+    "category": "Facilities",
+    "subcategory": "Accessibility",
+    "question": "Is the gym wheelchair accessible?",
+    "answer": "Yes, IRONGRID is fully wheelchair accessible. We have ramp access at the entrance, wide doorways, an accessible restroom and changing room, and elevator access to all floors. Our staff is trained to assist members with disabilities. We also have select adaptive equipment for members with mobility limitations."
+  },
+  {
+    "id": "equipment_cardio_001",
+    "category": "Equipment",
+    "subcategory": "Cardio - Treadmills",
+    "question": "How many treadmills do you have?",
+    "answer": "We have 12 commercial-grade treadmills with individual TV screens, heart rate monitors, and USB charging ports. Our treadmills go up to 20 km/h with adjustable incline. They include preset workout programs for fat burn, interval training, and hill climbing."
+  },
+  {
+    "id": "equipment_cardio_002",
+    "category": "Equipment",
+    "subcategory": "Cardio - Cross Trainers",
+    "question": "Do you have cross trainers or ellipticals?",
+    "answer": "Yes, we have 8 commercial elliptical cross trainers. These provide a low-impact full-body cardio workout that's easy on the joints. They feature adjustable resistance levels, stride lengths, and built-in workout programs."
+  },
+  {
+    "id": "equipment_cardio_003",
+    "category": "Equipment",
+    "subcategory": "Cardio - Cycles",
+    "question": "Do you have exercise bikes?",
+    "answer": "Yes, we have 6 upright exercise bikes and 4 recumbent bikes. The upright bikes are great for intense cardio sessions, while the recumbent bikes offer back support and are ideal for members with lower back concerns or beginners."
+  },
+  {
+    "id": "equipment_cardio_004",
+    "category": "Equipment",
+    "subcategory": "Cardio - Rowers",
+    "question": "Do you have rowing machines?",
+    "answer": "Yes, we have 4 rowing machines including 2 Concept2 Model D rowers, which are the gold standard for rowing workouts. Rowing provides an excellent full-body cardio and strength workout targeting legs, back, arms, and core."
+  },
+  {
+    "id": "equipment_cardio_005",
+    "category": "Equipment",
+    "subcategory": "Cardio - Stair Climbers",
+    "question": "Do you have stair climbers?",
+    "answer": "Yes, we have 3 stair climber machines (stair steppers). They provide an intense lower-body cardio workout targeting glutes, quads, hamstrings, and calves while also getting your heart rate up."
+  },
+  {
+    "id": "equipment_cardio_006",
+    "category": "Equipment",
+    "subcategory": "Cardio - Ski Erg",
+    "question": "Do you have a ski erg?",
+    "answer": "Yes, we have 2 Concept2 SkiErg machines. The SkiErg simulates cross-country skiing and is an excellent upper-body and core cardio workout. It's also a popular tool for CrossFit and functional fitness training."
+  },
+  {
+    "id": "equipment_strength_001",
+    "category": "Equipment",
+    "subcategory": "Strength - Smith Machine",
+    "question": "Do you have Smith machines?",
+    "answer": "Yes, we have 2 Smith machines. These are great for guided barbell movements like squats, bench press, shoulder press, and lunges with added safety. Each Smith machine has adjustable safety catches."
+  },
+  {
+    "id": "equipment_strength_002",
+    "category": "Equipment",
+    "subcategory": "Strength - Power Racks",
+    "question": "Do you have power racks or squat racks?",
+    "answer": "Yes, we have 4 power racks (also called squat racks or cages) with adjustable safety bars, J-hooks, and pull-up bars. They support squats, bench press, overhead press, rack pulls, and more. Each rack has spotter arms for safe solo lifting."
+  },
+  {
+    "id": "equipment_strength_003",
+    "category": "Equipment",
+    "subcategory": "Strength - Cable Crossover",
+    "question": "Do you have cable crossover machines?",
+    "answer": "Yes, we have 2 dual cable crossover machines with adjustable pulleys. These are versatile machines for chest flyes, cable rows, tricep pushdowns, face pulls, woodchops, and dozens of other exercises. The pulleys adjust to any height."
+  },
+  {
+    "id": "equipment_strength_004",
+    "category": "Equipment",
+    "subcategory": "Strength - Hack Squat",
+    "question": "Do you have a hack squat machine?",
+    "answer": "Yes, we have a hack squat machine. It's an excellent alternative to barbell squats, providing guided movement that targets the quadriceps while reducing lower back stress. It can be loaded with weight plates on each side."
+  },
+  {
+    "id": "equipment_strength_005",
+    "category": "Equipment",
+    "subcategory": "Strength - Leg Press",
+    "question": "Do you have a leg press machine?",
+    "answer": "Yes, we have 2 leg press machines — one 45-degree leg press and one horizontal leg press. Both can be loaded with heavy weight plates and are great for building quad, glute, and hamstring strength."
+  },
+  {
+    "id": "equipment_strength_006",
+    "category": "Equipment",
+    "subcategory": "Strength - Chest Press",
+    "question": "Do you have a chest press machine?",
+    "answer": "Yes, we have both a plate-loaded chest press machine and a selectorized (pin-loaded) chest press machine. These provide a safe way to train the chest muscles without needing a spotter, and are great for beginners learning pressing movements."
+  },
+  {
+    "id": "equipment_strength_007",
+    "category": "Equipment",
+    "subcategory": "Strength - Shoulder Press",
+    "question": "Do you have a shoulder press machine?",
+    "answer": "Yes, we have a selectorized shoulder press machine and a plate-loaded shoulder press. These machines are perfect for safely building shoulder strength and are especially recommended for beginners before progressing to free weights."
+  },
+  {
+    "id": "equipment_strength_008",
+    "category": "Equipment",
+    "subcategory": "Strength - Lat Pulldown",
+    "question": "Do you have a lat pulldown machine?",
+    "answer": "Yes, we have 2 lat pulldown machines with multiple grip attachments (wide bar, narrow grip, V-bar). The lat pulldown is one of the best exercises for building back width and is an excellent progression toward pull-ups."
+  },
+  {
+    "id": "equipment_strength_009",
+    "category": "Equipment",
+    "subcategory": "Strength - Seated Row",
+    "question": "Do you have a seated row machine?",
+    "answer": "Yes, we have both a cable seated row station and a plate-loaded seated row machine. These target the middle back, lats, and biceps. Multiple handle attachments are available for different grip variations."
+  },
+  {
+    "id": "equipment_strength_010",
+    "category": "Equipment",
+    "subcategory": "Strength - Functional Trainer",
+    "question": "Do you have a functional trainer machine?",
+    "answer": "Yes, we have 2 functional trainer machines (dual adjustable pulley systems). These are incredibly versatile — you can perform over 100 different exercises targeting every muscle group. They're great for rehab work, unilateral training, and sport-specific movements."
+  },
+  {
+    "id": "equipment_functional_001",
+    "category": "Equipment",
+    "subcategory": "Functional - Battle Ropes",
+    "question": "Do you have battle ropes?",
+    "answer": "Yes, we have 2 sets of battle ropes (1.5 inch and 2 inch thickness) in our functional training zone. Battle ropes are excellent for cardio conditioning, grip strength, shoulder endurance, and core stability. Our trainers can teach you various wave patterns and techniques."
+  },
+  {
+    "id": "equipment_functional_002",
+    "category": "Equipment",
+    "subcategory": "Functional - Medicine Balls",
+    "question": "Do you have medicine balls?",
+    "answer": "Yes, we have a full set of medicine balls ranging from 2 kg to 12 kg. They're used for core training, rotational movements, wall balls, slams, and partner exercises. Located in our functional training zone."
+  },
+  {
+    "id": "equipment_functional_003",
+    "category": "Equipment",
+    "subcategory": "Functional - Kettlebells",
+    "question": "Do you have kettlebells?",
+    "answer": "Yes, we have a complete set of kettlebells from 4 kg to 40 kg. Kettlebells are great for swings, goblet squats, Turkish get-ups, cleans, and snatches. Our trainers can help you learn proper kettlebell technique if you're new to them."
+  },
+  {
+    "id": "equipment_functional_004",
+    "category": "Equipment",
+    "subcategory": "Functional - TRX",
+    "question": "Do you have TRX suspension trainers?",
+    "answer": "Yes, we have 6 TRX suspension trainer stations in the functional zone. TRX uses your body weight for exercises that build strength, balance, flexibility, and core stability. It's suitable for all fitness levels — the difficulty is adjusted by changing your body angle."
+  },
+  {
+    "id": "equipment_functional_005",
+    "category": "Equipment",
+    "subcategory": "Functional - Plyo Boxes",
+    "question": "Do you have plyo boxes?",
+    "answer": "Yes, we have plyo boxes in 3 heights (20 inch, 24 inch, and 30 inch) plus adjustable foam plyo boxes. They're used for box jumps, step-ups, incline push-ups, and other plyometric exercises that build explosive power."
+  },
+  {
+    "id": "equipment_functional_006",
+    "category": "Equipment",
+    "subcategory": "Functional - Resistance Bands",
+    "question": "Do you have resistance bands?",
+    "answer": "Yes, we have a variety of resistance bands — mini bands (loop bands), long loop bands in 5 resistance levels, and tube bands with handles. They're free to use and are great for warm-ups, mobility work, assisted pull-ups, and adding resistance to exercises."
+  },
+  {
+    "id": "equipment_freeweight_001",
+    "category": "Equipment",
+    "subcategory": "Free Weights - Dumbbells",
+    "question": "What dumbbell range do you have?",
+    "answer": "We have a complete dumbbell rack ranging from 1 kg to 50 kg in 1-2 kg increments. All dumbbells are commercial-grade rubber-coated hex dumbbells for durability and floor protection. Multiple sets are available for popular weights (5 kg to 20 kg) to reduce wait times."
+  },
+  {
+    "id": "equipment_freeweight_002",
+    "category": "Equipment",
+    "subcategory": "Free Weights - Olympic Bars",
+    "question": "Do you have Olympic barbells?",
+    "answer": "Yes, we have 8 Olympic barbells (20 kg / 7 feet standard bars), 2 women's Olympic bars (15 kg), and specialty bars. All bars have a 700+ lb weight capacity with rotating sleeves. Bars are maintained and chalk is available in the lifting area."
+  },
+  {
+    "id": "equipment_freeweight_003",
+    "category": "Equipment",
+    "subcategory": "Free Weights - EZ Bars",
+    "question": "Do you have EZ curl bars?",
+    "answer": "Yes, we have 4 EZ curl bars in different weights (7 kg, 10 kg). EZ bars have angled grips that reduce wrist strain during bicep curls and tricep extensions. Fixed-weight EZ bars from 10 kg to 40 kg are also available."
+  },
+  {
+    "id": "equipment_freeweight_004",
+    "category": "Equipment",
+    "subcategory": "Free Weights - Trap Bar",
+    "question": "Do you have a trap bar or hex bar?",
+    "answer": "Yes, we have 2 trap bars (hex bars). They're great for deadlifts (especially for beginners, as they put less stress on the lower back), shrugs, and farmer's walks. The trap bar allows you to lift from a more neutral body position."
+  },
+  {
+    "id": "equipment_freeweight_005",
+    "category": "Equipment",
+    "subcategory": "Free Weights - Weight Plates",
+    "question": "What weight plates do you have?",
+    "answer": "We have calibrated Olympic weight plates in 1.25 kg, 2.5 kg, 5 kg, 10 kg, 15 kg, 20 kg, and 25 kg. All plates are rubber-coated bumper plates, safe for deadlifts and Olympic lifts. We have ample supply — over 2,000 kg of plates in total."
+  },
+  {
+    "id": "equipment_freeweight_006",
+    "category": "Equipment",
+    "subcategory": "Free Weights - Benches",
+    "question": "What benches do you have?",
+    "answer": "We have 6 adjustable benches (flat, incline, decline), 2 dedicated flat benches for bench press, 1 decline bench, and 1 preacher curl bench. All benches are commercial-grade with thick padding and stable bases. They can support users up to 200 kg."
+  },
+  {
+    "id": "equipment_recovery_001",
+    "category": "Equipment",
+    "subcategory": "Recovery - Foam Rollers",
+    "question": "Do you have foam rollers?",
+    "answer": "Yes, we have foam rollers in both standard and high-density varieties. They're available in the recovery zone and stretching area. Foam rolling helps with muscle recovery, myofascial release, and improving flexibility. Our trainers can guide you on proper foam rolling technique."
+  },
+  {
+    "id": "equipment_recovery_002",
+    "category": "Equipment",
+    "subcategory": "Recovery - Massage Guns",
+    "question": "Do you have massage guns?",
+    "answer": "Yes, we have massage guns (percussion therapy devices) available in the recovery zone for Premium and Elite members. These help reduce muscle soreness, improve blood flow, and speed up recovery. Multiple attachment heads are available for different muscle groups. Please sanitize after use."
+  },
+  {
+    "id": "equipment_recovery_003",
+    "category": "Equipment",
+    "subcategory": "Recovery - Stretch Mats",
+    "question": "Do you provide yoga or stretch mats?",
+    "answer": "Yes, yoga mats and thick stretch mats are available for free use in the stretching area and group class studio. We sanitize mats regularly, but you're welcome to bring your own mat for personal preference. Mats are also provided during group classes."
+  },
+  {
+    "id": "trainer_general_001",
+    "category": "Trainers",
+    "subcategory": "Number of Trainers",
+    "question": "How many trainers do you have?",
+    "answer": "We have a team of 8 certified personal trainers, including 3 female trainers. At least 2-3 trainers are available on the gym floor during all standard operating hours to help members with form, equipment usage, and general guidance."
+  },
+  {
+    "id": "trainer_general_002",
+    "category": "Trainers",
+    "subcategory": "Qualifications",
+    "question": "What qualifications do your trainers have?",
+    "answer": "All IRONGRID trainers hold nationally or internationally recognized certifications such as ACE, NASM, ISSA, or K11 Fitness Academy. They undergo continuous education and are trained in CPR and first aid. Several trainers have specialized certifications in areas like sports nutrition, corrective exercise, and senior fitness."
+  },
+  {
+    "id": "trainer_general_003",
+    "category": "Trainers",
+    "subcategory": "Experience",
+    "question": "How experienced are your trainers?",
+    "answer": "Our trainers have a minimum of 2 years of professional training experience, with our most senior trainers having 8+ years. Collectively, our team has helped over 3,000 members achieve their fitness goals. Each trainer maintains detailed records of client progress."
+  },
+  {
+    "id": "trainer_spec_001",
+    "category": "Trainers",
+    "subcategory": "Specialization - Weight Loss",
+    "question": "Do you have trainers who specialize in weight loss?",
+    "answer": "Yes, several of our trainers specialize in weight loss and body transformation programs. They create customized workout and nutrition plans based on your body type, current fitness level, and goals. They use body composition analysis to track progress beyond just scale weight."
+  },
+  {
+    "id": "trainer_spec_002",
+    "category": "Trainers",
+    "subcategory": "Specialization - Bodybuilding",
+    "question": "Do you have trainers for bodybuilding?",
+    "answer": "Yes, we have trainers experienced in bodybuilding, contest prep, and hypertrophy training. They can design periodized training programs for muscle growth, help with posing practice, and provide guidance on nutrition for bulking and cutting phases."
+  },
+  {
+    "id": "trainer_spec_003",
+    "category": "Trainers",
+    "subcategory": "Specialization - Powerlifting",
+    "question": "Do you have trainers for powerlifting?",
+    "answer": "Yes, we have trainers experienced in powerlifting who can coach you on proper squat, bench press, and deadlift technique. They can design strength-focused programs with progressive overload, peaking protocols, and competition preparation."
+  },
+  {
+    "id": "trainer_spec_004",
+    "category": "Trainers",
+    "subcategory": "Specialization - Sports Performance",
+    "question": "Do you have trainers for sports performance?",
+    "answer": "Yes, we have trainers who specialize in sports-specific training for athletes. They can design programs for speed, agility, power, and endurance tailored to your sport — whether it's cricket, football, basketball, tennis, swimming, or martial arts."
+  },
+  {
+    "id": "trainer_spec_005",
+    "category": "Trainers",
+    "subcategory": "Specialization - Women's Fitness",
+    "question": "Do you have female trainers or trainers specializing in women's fitness?",
+    "answer": "Yes, we have 3 female trainers who specialize in women's fitness. They understand the unique fitness needs of women including hormonal considerations, pre/post-natal fitness, bone density, and body composition goals. Women members can request a female trainer for their sessions."
+  },
+  {
+    "id": "trainer_spec_006",
+    "category": "Trainers",
+    "subcategory": "Specialization - Senior Fitness",
+    "question": "Do you have trainers for seniors or older adults?",
+    "answer": "Yes, we have trainers certified in senior fitness who specialize in safe, effective exercise programs for older adults. Focus areas include balance, mobility, joint health, osteoporosis prevention, and maintaining independence. We welcome members of all ages."
+  },
+  {
+    "id": "trainer_spec_007",
+    "category": "Trainers",
+    "subcategory": "Specialization - Rehabilitation",
+    "question": "Do you have trainers for rehabilitation or injury recovery?",
+    "answer": "Yes, some of our trainers are certified in corrective exercise and can design rehabilitation-focused programs. They work with members recovering from injuries, surgeries, or chronic pain conditions. For medical conditions, we recommend getting clearance from your doctor first and sharing any relevant medical reports with your trainer."
+  },
+  {
+    "id": "trainer_pricing_001",
+    "category": "Trainers",
+    "subcategory": "Personal Training Pricing",
+    "question": "How much does personal training cost?",
+    "answer": "Personal training rates: Single session: ₹799. Pack of 8 sessions: ₹5,599 (₹700/session). Pack of 16 sessions: ₹9,999 (₹625/session). Pack of 24 sessions: ₹13,999 (₹583/session). Note that Premium members get 1 free session/month and Elite members get unlimited sessions included in their plan."
+  },
+  {
+    "id": "trainer_schedule_001",
+    "category": "Trainers",
+    "subcategory": "Trainer Schedules",
+    "question": "What are the trainer schedules?",
+    "answer": "Our trainers work in shifts to cover all standard operating hours. Morning shift: 5 AM - 12 PM (3-4 trainers). Afternoon shift: 12 PM - 5 PM (2-3 trainers). Evening shift: 5 PM - 11 PM (3-4 trainers). At least one trainer is always on the floor. Specific trainer schedules can be checked at the front desk."
+  },
+  {
+    "id": "trainer_booking_001",
+    "category": "Trainers",
+    "subcategory": "Booking Process",
+    "question": "How do I book a personal training session?",
+    "answer": "You can book a personal training session by: (1) Speaking to the front desk or your preferred trainer directly, (2) Calling us during operating hours, or (3) Using our member portal/app. We recommend booking at least 24 hours in advance. Cancellations must be made 4 hours before the session to avoid being charged."
+  },
+  {
+    "id": "trainer_language_001",
+    "category": "Trainers",
+    "subcategory": "Languages Spoken",
+    "question": "What languages do your trainers speak?",
+    "answer": "Our trainers collectively speak English, Hindi, Tamil, Telugu, Kannada, and Malayalam. We ensure clear communication with all members. If you have a language preference, let us know and we'll match you with an appropriate trainer."
+  },
+  {
+    "id": "class_yoga_001",
+    "category": "Group Classes",
+    "subcategory": "Yoga",
+    "question": "Do you offer yoga classes?",
+    "answer": "Yes, we offer yoga classes 5 days a week. Classes include Hatha Yoga (beginner-friendly), Vinyasa Flow (intermediate), and Power Yoga (advanced). Each class is 60 minutes and led by certified yoga instructors. Classes are included for Premium and Elite members. Basic members can attend at ₹199 per class."
+  },
+  {
+    "id": "class_zumba_001",
+    "category": "Group Classes",
+    "subcategory": "Zumba",
+    "question": "Do you offer Zumba classes?",
+    "answer": "Yes, we offer Zumba classes 4 times a week. Zumba is a fun, dance-based cardio workout set to energetic music. No dance experience needed — it's suitable for all fitness levels. Classes are 45 minutes and are a great way to burn calories while having fun. Included for Premium and Elite members."
+  },
+  {
+    "id": "class_hiit_001",
+    "category": "Group Classes",
+    "subcategory": "HIIT",
+    "question": "Do you offer HIIT classes?",
+    "answer": "Yes, we offer High-Intensity Interval Training (HIIT) classes 5 times a week. These are intense 30-45 minute sessions combining cardio and bodyweight exercises with short rest periods. HIIT is highly effective for fat loss, cardiovascular fitness, and building endurance. Suitable for intermediate to advanced levels."
+  },
+  {
+    "id": "class_crossfit_001",
+    "category": "Group Classes",
+    "subcategory": "CrossFit",
+    "question": "Do you offer CrossFit classes?",
+    "answer": "Yes, we offer CrossFit-style functional fitness classes 4 times a week. These classes combine Olympic lifting, gymnastics, and high-intensity conditioning. Each class includes a warm-up, skill work, and a Workout of the Day (WOD). Led by CrossFit-certified coaches. Suitable for intermediate and advanced members."
+  },
+  {
+    "id": "class_functional_001",
+    "category": "Group Classes",
+    "subcategory": "Functional Training",
+    "question": "Do you offer functional training classes?",
+    "answer": "Yes, our functional training classes focus on movements that improve everyday strength, mobility, and coordination. Classes use kettlebells, resistance bands, medicine balls, and bodyweight exercises. 45 minutes, 3 times a week. Great for beginners and those looking to improve overall fitness."
+  },
+  {
+    "id": "class_dance_001",
+    "category": "Group Classes",
+    "subcategory": "Dance Fitness",
+    "question": "Do you offer dance fitness classes?",
+    "answer": "Yes, we offer dance fitness classes including Zumba and Bollywood dance workouts. These are high-energy, fun sessions that burn calories through choreographed routines. No prior dance experience required. Classes are 45-60 minutes and suitable for all fitness levels."
+  },
+  {
+    "id": "class_pilates_001",
+    "category": "Group Classes",
+    "subcategory": "Pilates",
+    "question": "Do you offer Pilates classes?",
+    "answer": "Yes, we offer mat Pilates classes 3 times a week. Pilates focuses on core strength, flexibility, posture, and body awareness. Classes are 50 minutes and suitable for all levels. It's especially beneficial for those with back pain, desk job posture issues, or recovering from injuries."
+  },
+  {
+    "id": "class_mobility_001",
+    "category": "Group Classes",
+    "subcategory": "Mobility",
+    "question": "Do you offer mobility classes?",
+    "answer": "Yes, we offer mobility and flexibility classes twice a week. These classes focus on joint mobility, dynamic stretching, foam rolling techniques, and movement quality. Each session is 45 minutes and is recommended for all members, especially those doing heavy strength training."
+  },
+  {
+    "id": "class_schedule_001",
+    "category": "Group Classes",
+    "subcategory": "Class Schedule",
+    "question": "What is the group class schedule?",
+    "answer": "Classes run throughout the day. Morning batch: 6 AM - 8 AM (Yoga, HIIT). Mid-morning: 9 AM - 11 AM (Pilates, Functional). Evening: 5 PM - 8 PM (Zumba, CrossFit, HIIT, Dance Fitness). The full weekly schedule is displayed at the front desk and on our member app. Schedules may vary on Sundays and holidays."
+  },
+  {
+    "id": "class_capacity_001",
+    "category": "Group Classes",
+    "subcategory": "Class Capacity",
+    "question": "How many people can attend a class?",
+    "answer": "Most group classes have a capacity of 15-20 participants to ensure quality instruction and individual attention. Popular evening classes fill up fast, so we recommend booking in advance. A waitlist option is available for full classes."
+  },
+  {
+    "id": "class_booking_001",
+    "category": "Group Classes",
+    "subcategory": "Class Booking",
+    "question": "How do I book a group class?",
+    "answer": "You can book group classes through the front desk, by phone, or through our member portal. Booking opens 7 days in advance. Premium and Elite members can book unlimited classes. Basic members can purchase class passes at ₹199 per class or a class pack of 10 for ₹1,499."
+  },
+  {
+    "id": "class_late_001",
+    "category": "Group Classes",
+    "subcategory": "Late Policy",
+    "question": "What happens if I'm late to a class?",
+    "answer": "If you arrive more than 5 minutes late, you may not be allowed to join the class for safety reasons (warm-up is critical). Your spot may be given to someone on the waitlist. We recommend arriving 5 minutes early to set up and warm up."
+  },
+  {
+    "id": "class_cancel_001",
+    "category": "Group Classes",
+    "subcategory": "Class Cancellation",
+    "question": "Can I cancel a class booking?",
+    "answer": "Yes, you can cancel a class booking up to 2 hours before the class starts without any penalty. Late cancellations or no-shows count against you — 3 no-shows in a month may result in a temporary booking restriction. This policy ensures spots are available for members who want to attend."
+  },
+  {
+    "id": "safety_emergency_001",
+    "category": "Safety",
+    "subcategory": "Emergency Procedures",
+    "question": "What emergency procedures does the gym have?",
+    "answer": "IRONGRID has comprehensive emergency protocols: clearly marked emergency exits on every floor, fire extinguishers and fire alarm systems throughout the facility, an automated external defibrillator (AED) near the front desk, a fully stocked first-aid kit, and staff trained in CPR and basic first aid. Emergency contact numbers are posted on every wall."
+  },
+  {
+    "id": "safety_firstaid_001",
+    "category": "Safety",
+    "subcategory": "First Aid",
+    "question": "Do you have first aid facilities?",
+    "answer": "Yes, we have a fully stocked first-aid kit at the front desk with bandages, antiseptic, ice packs, pain relief spray, and basic medications. At least one staff member trained in first aid is present during all operating hours. For serious injuries, we have a protocol to call emergency services immediately."
+  },
+  {
+    "id": "safety_aed_001",
+    "category": "Safety",
+    "subcategory": "AED",
+    "question": "Do you have an AED or defibrillator?",
+    "answer": "Yes, we have an Automated External Defibrillator (AED) located near the front desk, clearly marked and accessible. Multiple staff members are trained in AED usage. The AED is regularly maintained and inspected."
+  },
+  {
+    "id": "safety_fire_001",
+    "category": "Safety",
+    "subcategory": "Fire Safety",
+    "question": "What fire safety measures do you have?",
+    "answer": "We have a comprehensive fire safety system including smoke detectors throughout the facility, fire extinguishers on every floor and in every zone, clearly marked fire exits with illuminated signs, fire sprinkler systems, and regular fire drills for staff. Emergency evacuation routes are posted on all walls."
+  },
+  {
+    "id": "safety_spotter_001",
+    "category": "Safety",
+    "subcategory": "Spotter Arms",
+    "question": "Do your racks have safety bars or spotters?",
+    "answer": "Yes, all our power racks have adjustable spotter arms and safety bars. These catch the barbell if you fail a lift, allowing you to train heavy safely even without a training partner. Our trainers always encourage members to set the safety bars before lifting heavy."
+  },
+  {
+    "id": "safety_maintenance_001",
+    "category": "Safety",
+    "subcategory": "Machine Maintenance",
+    "question": "How often is equipment maintained?",
+    "answer": "All equipment undergoes daily visual inspections, weekly detailed checks (lubrication, cable integrity, bolt tightness), and quarterly professional maintenance by certified technicians. Any equipment found to be damaged or unsafe is immediately taken out of service and tagged until repaired. We maintain a detailed maintenance log."
+  },
+  {
+    "id": "safety_cleaning_001",
+    "category": "Safety",
+    "subcategory": "Cleaning Schedules",
+    "question": "How often is the gym cleaned?",
+    "answer": "The gym is cleaned continuously throughout the day: equipment is wiped down every 2-3 hours by staff, restrooms and changing rooms are cleaned every 3 hours, floors are mopped twice daily, and a deep cleaning is done every night after closing. Sanitizer stations are placed throughout the gym for members to wipe down equipment after use."
+  },
+  {
+    "id": "safety_covid_001",
+    "category": "Safety",
+    "subcategory": "COVID Protocols",
+    "question": "What COVID safety measures are in place?",
+    "answer": "We maintain enhanced hygiene protocols: hand sanitizer stations at entry and throughout the gym, regular deep cleaning and disinfection of all equipment, enhanced ventilation with HEPA air filters, temperature checks during health advisory periods, and adequate spacing between equipment. We follow all current government guidelines and update protocols accordingly."
+  },
+  {
+    "id": "safety_injury_001",
+    "category": "Safety",
+    "subcategory": "Injury Handling",
+    "question": "What happens if someone gets injured?",
+    "answer": "If an injury occurs: (1) Our trained staff provides immediate first aid, (2) If serious, we call emergency medical services, (3) We document the incident in our safety log, (4) We follow up with the member within 24 hours. We also have an incident reporting system and maintain relationships with nearby hospitals and clinics for quick referrals."
+  },
+  {
+    "id": "safety_camera_001",
+    "category": "Safety",
+    "subcategory": "Security Cameras",
+    "question": "Are there security cameras?",
+    "answer": "Yes, security cameras (CCTV) cover all common areas including the gym floor, reception, parking area, entrances, and exits. Cameras are NOT installed in changing rooms, restrooms, or showers for privacy. Footage is stored securely for 30 days and accessed only for security or incident investigation purposes."
+  },
+  {
+    "id": "safety_staff_001",
+    "category": "Safety",
+    "subcategory": "Staff Availability",
+    "question": "Is staff always available during gym hours?",
+    "answer": "Yes, during standard operating hours (Mon-Sat 5 AM - 11 PM, Sunday 6 AM - 9 PM), at least 2-3 staff members are always present including a front desk attendant and floor trainers. During 24/7 access hours (for Premium/Elite), a security guard is present but trainers may not be available."
+  },
+  {
+    "id": "nutrition_mealplan_001",
+    "category": "Nutrition",
+    "subcategory": "Meal Plans",
+    "question": "Do you provide meal plans?",
+    "answer": "Yes, personalized meal plans are available through our nutrition consultation service. Elite members get a monthly nutrition consultation included. Other members can book sessions at ₹999 per consultation. Meal plans are customized based on your goals, dietary preferences, allergies, and lifestyle."
+  },
+  {
+    "id": "nutrition_protein_001",
+    "category": "Nutrition",
+    "subcategory": "Protein",
+    "question": "Do you sell protein supplements?",
+    "answer": "Yes, our protein café sells whey protein shakes and smoothies. We also stock popular protein supplement brands (whey protein, casein, plant-based protein) at our retail counter. Our staff can help you choose the right protein supplement based on your goals and dietary needs."
+  },
+  {
+    "id": "nutrition_supplement_001",
+    "category": "Nutrition",
+    "subcategory": "Supplements",
+    "question": "Do you sell fitness supplements?",
+    "answer": "Yes, we have a retail section at the front desk selling popular fitness supplements including whey protein, creatine, BCAAs, pre-workout, multivitamins, fish oil, and protein bars. We only stock reputable, certified brands. Our trainers can provide guidance on supplement usage, but we always recommend consulting a doctor for medical advice."
+  },
+  {
+    "id": "nutrition_hydration_001",
+    "category": "Nutrition",
+    "subcategory": "Hydration",
+    "question": "What hydration options are available?",
+    "answer": "We have multiple RO-purified water stations throughout the gym (both cold and room temperature). Our café also sells coconut water, electrolyte drinks, and fresh fruit juices. We encourage all members to stay hydrated — bring your own bottle or buy one at the front desk."
+  },
+  {
+    "id": "nutrition_bodycomp_001",
+    "category": "Nutrition",
+    "subcategory": "Body Composition Analysis",
+    "question": "Do you offer body composition analysis?",
+    "answer": "Yes, we use a professional-grade bioelectrical impedance analysis (BIA) machine to measure body fat percentage, muscle mass, water percentage, bone density estimate, visceral fat, and BMR. Elite members get biweekly analysis included. Other members can get it done at ₹299 per session. It's a great way to track progress beyond the scale."
+  },
+  {
+    "id": "nutrition_consult_001",
+    "category": "Nutrition",
+    "subcategory": "Nutrition Consultations",
+    "question": "Do you offer nutrition consultations?",
+    "answer": "Yes, we have a certified nutritionist available for one-on-one consultations. Elite members get 1 consultation per month included. Other members can book at ₹999 per session. Consultations cover meal planning, macro calculations, supplement guidance, and diet adjustments based on your fitness goals."
+  },
+  {
+    "id": "nutrition_macro_001",
+    "category": "Nutrition",
+    "subcategory": "Macro Guidance",
+    "question": "Can you help me with macro tracking?",
+    "answer": "Yes, our nutritionist and trained personal trainers can help you calculate your ideal macronutrient targets (protein, carbs, fat) based on your body weight, activity level, and goals (fat loss, muscle gain, maintenance). They can also recommend apps for daily tracking and provide food lists for easy meal prep."
+  },
+  {
+    "id": "nutrition_veg_001",
+    "category": "Nutrition",
+    "subcategory": "Vegetarian Options",
+    "question": "Can vegetarians get enough protein at the gym café?",
+    "answer": "Absolutely! Our café offers plenty of vegetarian high-protein options including paneer-based snacks, sprout bowls, whey protein shakes, Greek yogurt bowls, soy-based options, and lentil-based meals. Our nutritionist can also create a fully vegetarian meal plan that meets your protein goals."
+  },
+  {
+    "id": "nutrition_vegan_001",
+    "category": "Nutrition",
+    "subcategory": "Vegan Options",
+    "question": "Do you have vegan options?",
+    "answer": "Yes, our café has vegan-friendly options including plant-based protein shakes (pea/soy protein), fruit smoothies, salads, and grain bowls. We also stock vegan protein supplements at our retail counter. Our nutritionist can design a complete vegan meal plan that supports your fitness goals."
+  },
+  {
+    "id": "nutrition_highprotein_001",
+    "category": "Nutrition",
+    "subcategory": "High Protein Options",
+    "question": "What high-protein food do you have?",
+    "answer": "Our café offers chicken breast wraps, egg white omelets, paneer tikka bowls, whey protein shakes, Greek yogurt with nuts, protein bars, and high-protein smoothies. All items have calorie and macro information displayed on the menu so you can make informed choices."
+  },
+  {
+    "id": "rules_dresscode_001",
+    "category": "Rules",
+    "subcategory": "Dress Code",
+    "question": "What is the dress code?",
+    "answer": "Members must wear proper athletic/workout clothing and closed-toe athletic shoes at all times on the gym floor. Jeans, sandals, flip-flops, open-toe shoes, formal wear, and casual slippers are not allowed. Sleeveless shirts are fine. Gym gloves and belts are allowed. Please ensure your clothing is clean and appropriate."
+  },
+  {
+    "id": "rules_shoes_001",
+    "category": "Rules",
+    "subcategory": "Shoes",
+    "question": "Can I wear sandals or slippers to the gym?",
+    "answer": "No, sandals, slippers, flip-flops, and open-toe shoes are not permitted on the gym floor for safety reasons. You must wear closed-toe athletic shoes with non-marking soles. Running shoes, cross-trainers, or lifting shoes are all acceptable. This rule is strictly enforced to prevent foot injuries."
+  },
+  {
+    "id": "rules_outsidetrainer_001",
+    "category": "Rules",
+    "subcategory": "Outside Trainers",
+    "question": "Can I bring my own personal trainer?",
+    "answer": "Outside personal trainers are not permitted at IRONGRID. This policy ensures quality control, safety standards, and liability coverage. Our in-house trainers are highly qualified, certified, and familiar with all our equipment. If you have a specific training style preference, let us know and we'll match you with the right trainer."
+  },
+  {
+    "id": "rules_photography_001",
+    "category": "Rules",
+    "subcategory": "Photography",
+    "question": "Can I take photos or videos at the gym?",
+    "answer": "Personal selfies and progress photos are allowed in designated areas (near mirrors, stretching area). However, recording other members without their consent is strictly prohibited. Flash photography and tripod setups are not allowed on the gym floor as they can be distracting and unsafe. Professional photography or filming requires prior management approval."
+  },
+  {
+    "id": "rules_phone_001",
+    "category": "Rules",
+    "subcategory": "Mobile Phones",
+    "question": "Can I use my phone at the gym?",
+    "answer": "Yes, you can use your phone for music, tracking workouts, or quick messages. However, please keep phone calls short and move to the lounge area for extended conversations. Do not use your phone while actively using equipment (safety risk). Earphones/headphones are recommended so your music doesn't disturb others."
+  },
+  {
+    "id": "rules_etiquette_001",
+    "category": "Rules",
+    "subcategory": "Equipment Etiquette",
+    "question": "What are the equipment usage rules?",
+    "answer": "Key rules: (1) Wipe down equipment after use with provided sanitizer/wipes, (2) Re-rack all weights and dumbbells after use, (3) Don't hog machines — limit to 20 minutes during peak hours if others are waiting, (4) No slamming or dropping weights unnecessarily, (5) Use clips on barbells, (6) Ask for a spot if lifting heavy. Please be considerate of other members."
+  },
+  {
+    "id": "rules_cleaning_001",
+    "category": "Rules",
+    "subcategory": "Cleaning Equipment",
+    "question": "Do I need to wipe down equipment after use?",
+    "answer": "Yes, absolutely. Please wipe down all equipment (benches, machines, mats, handles) after every use with the sanitizer spray and paper towels provided at stations throughout the gym. This is mandatory for hygiene and is a basic courtesy to fellow members. Staff may remind members who forget."
+  },
+  {
+    "id": "rules_locker_001",
+    "category": "Rules",
+    "subcategory": "Locker Policy",
+    "question": "What is the locker policy?",
+    "answer": "Lockers are for day-use only — please clear your locker before leaving the gym. Bring your own combination lock or purchase one at the front desk (₹199). Items left overnight may be removed and stored at the lost and found. For a permanent assigned locker, you can add on the dedicated locker service at ₹299/month."
+  },
+  {
+    "id": "rules_guest_001",
+    "category": "Rules",
+    "subcategory": "Guest Rules",
+    "question": "What are the rules for guests?",
+    "answer": "Guests must: (1) Be accompanied by a member at all times, (2) Sign a liability waiver at the front desk, (3) Follow all gym rules including dress code, (4) Pay the guest fee (₹249) or use a member's guest pass, (5) Be at least 16 years old (or accompanied by a parent/guardian if younger). Guests are limited to 2 visits per month with the same member."
+  },
+  {
+    "id": "rules_age_001",
+    "category": "Rules",
+    "subcategory": "Age Restrictions",
+    "question": "What is the minimum age to join?",
+    "answer": "Members must be at least 16 years old to use the gym independently. Members aged 14-15 can use the gym with a parent/guardian present and a signed parental consent form. Children under 14 are not permitted on the gym floor but can use the supervised kids' play area while their parents work out."
+  },
+  {
+    "id": "rules_conduct_001",
+    "category": "Rules",
+    "subcategory": "Code of Conduct",
+    "question": "What is the code of conduct?",
+    "answer": "All members must: treat staff and fellow members with respect, refrain from offensive language or behavior, not provide unsolicited training advice, maintain personal hygiene, avoid excessive grunting or disruptive noise, keep the gym clean, follow all posted rules, and report any safety concerns or misconduct to staff. Violations may result in membership suspension or termination."
+  },
+  {
+    "id": "timing_weekday_001",
+    "category": "Timings",
+    "subcategory": "Weekday Hours",
+    "question": "What are the gym timings on weekdays?",
+    "answer": "Monday to Saturday: 5:00 AM to 11:00 PM. These are standard hours for all membership tiers. Premium and Elite members with 24/7 keycard access can enter outside these hours as well."
+  },
+  {
+    "id": "timing_weekend_001",
+    "category": "Timings",
+    "subcategory": "Weekend Hours",
+    "question": "What are the gym timings on Sundays?",
+    "answer": "Sunday hours are 6:00 AM to 9:00 PM. Slightly shorter than weekdays, but Premium and Elite members with 24/7 keycard access can still enter anytime. Group class schedules may be reduced on Sundays."
+  },
+  {
+    "id": "timing_24x7_001",
+    "category": "Timings",
+    "subcategory": "24/7 Access",
+    "question": "Can I access the gym 24/7?",
+    "answer": "24/7 keycard access is available for Premium (₹2,499/month) and Elite (₹3,999/month) members. You get a personal keycard that lets you enter the gym at any time, day or night. During off-hours, a security guard is present but trainers and front desk staff are not available. The full gym floor and equipment are accessible."
+  },
+  {
+    "id": "timing_holiday_001",
+    "category": "Timings",
+    "subcategory": "Holiday Hours",
+    "question": "Is the gym open on holidays?",
+    "answer": "The gym is open on most public holidays with reduced hours (typically 7 AM to 6 PM). We close only on 3 days per year: Republic Day (Jan 26), Independence Day (Aug 15), and one annual maintenance day (announced in advance). Premium and Elite members with 24/7 access can enter even on closed days except the maintenance day. Holiday schedules are posted at the front desk and on social media."
+  },
+  {
+    "id": "timing_peak_001",
+    "category": "Timings",
+    "subcategory": "Peak Hours",
+    "question": "What are the peak hours?",
+    "answer": "Peak hours are typically 6 AM - 9 AM and 5 PM - 9 PM on weekdays. These times see the highest footfall. If you prefer a less crowded experience, try visiting during off-peak hours: 9 AM - 5 PM or after 9 PM. Weekend mornings (6 AM - 10 AM) can also be busy."
+  },
+  {
+    "id": "faq_beginner_001",
+    "category": "FAQ",
+    "subcategory": "Beginners",
+    "question": "Can beginners join IRONGRID?",
+    "answer": "Absolutely! IRONGRID welcomes members of all fitness levels, especially beginners. Every new member gets a fitness assessment, and our trainers are always on the floor to help with equipment usage and proper form. We recommend starting with the Basic or Premium plan and booking a few personal training sessions to build confidence."
+  },
+  {
+    "id": "faq_beginner_002",
+    "category": "FAQ",
+    "subcategory": "Beginners",
+    "question": "I've never been to a gym before. Is that okay?",
+    "answer": "Of course! Many of our members started as complete beginners. Our trainers specialize in helping newcomers learn equipment, proper form, and build a routine. You'll receive a complimentary fitness assessment on joining, and we recommend starting with our group classes or a few personal training sessions to get comfortable."
+  },
+  {
+    "id": "faq_overweight_001",
+    "category": "FAQ",
+    "subcategory": "Body Types",
+    "question": "Can I join if I'm overweight?",
+    "answer": "Yes, 100%. IRONGRID is an inclusive gym and we welcome people of all body types and fitness levels. Many of our most inspiring transformation stories come from members who started their journey with us. Our trainers specialize in weight management programs and will create a safe, sustainable plan tailored to your needs. No judgment — only support."
+  },
+  {
+    "id": "faq_teenager_001",
+    "category": "FAQ",
+    "subcategory": "Age",
+    "question": "Can teenagers join the gym?",
+    "answer": "Members aged 16 and above can join independently. Teenagers aged 14-15 can join with a signed parental consent form and must be accompanied by a parent/guardian. We have trainers experienced in safe youth training who ensure age-appropriate exercises. Children under 14 can use our supervised kids' play area."
+  },
+  {
+    "id": "faq_senior_001",
+    "category": "FAQ",
+    "subcategory": "Age",
+    "question": "Is the gym suitable for seniors or older adults?",
+    "answer": "Yes! We have trainers certified in senior fitness who create safe, effective programs focusing on balance, mobility, joint health, and strength maintenance. Our equipment includes low-impact options like recumbent bikes and cable machines. We also offer gentle yoga and mobility classes. Many of our members are 50+ and thriving."
+  },
+  {
+    "id": "faq_women_001",
+    "category": "FAQ",
+    "subcategory": "Women",
+    "question": "Is the gym comfortable for women?",
+    "answer": "Absolutely. We have a dedicated women-only training section with its own equipment, female trainers during all standard hours, and a strict code of conduct that ensures a respectful environment. Many of our group classes are popular with women members. We take safety and comfort seriously."
+  },
+  {
+    "id": "faq_visit_001",
+    "category": "FAQ",
+    "subcategory": "Visiting",
+    "question": "Can I visit the gym before joining?",
+    "answer": "Yes! We encourage you to visit and tour the facility before signing up. Walk in during operating hours and our front desk team will give you a full tour of the gym floor, amenities, and explain membership options. You can also sign up for a 7-day free trial to experience everything firsthand."
+  },
+  {
+    "id": "faq_pause_001",
+    "category": "FAQ",
+    "subcategory": "Membership",
+    "question": "Can I pause my membership if I go on vacation?",
+    "answer": "Yes, you can freeze your membership for up to 30 days per year at no extra charge. Just inform the front desk at least 3 days before you want the freeze to start. Your billing is paused and your membership end date extends by the freeze duration."
+  },
+  {
+    "id": "faq_friend_001",
+    "category": "FAQ",
+    "subcategory": "Guests",
+    "question": "Can I bring a friend to work out with me?",
+    "answer": "Yes! Elite members get 2 complimentary guest passes per month. Other members can bring a guest by purchasing a day pass at ₹249 at the front desk. Guests must sign a waiver, follow gym rules, and be accompanied by the member. It's a great way to introduce friends to IRONGRID."
+  },
+  {
+    "id": "faq_parking_001",
+    "category": "FAQ",
+    "subcategory": "Parking",
+    "question": "Is parking free?",
+    "answer": "Yes, parking is completely free for all members. We have dedicated spots for cars and a separate area for two-wheelers. The parking area is well-lit and monitored by security cameras."
+  },
+  {
+    "id": "faq_trainers_001",
+    "category": "FAQ",
+    "subcategory": "Trainers",
+    "question": "How many trainers are available at a time?",
+    "answer": "During standard hours, 2-4 trainers are on the gym floor at any given time, depending on the shift. Morning and evening shifts have more trainers due to higher footfall. You can also book personal training sessions for dedicated one-on-one attention."
+  },
+  {
+    "id": "faq_femaletrainer_001",
+    "category": "FAQ",
+    "subcategory": "Trainers",
+    "question": "Do you have female trainers?",
+    "answer": "Yes, we have 3 female trainers on our team. They are certified professionals specializing in women's fitness, weight management, and functional training. Female trainers are available during all standard operating hours. You can request a female trainer for personal training sessions."
+  },
+  {
+    "id": "faq_ac_001",
+    "category": "FAQ",
+    "subcategory": "Comfort",
+    "question": "Do you have AC or air conditioning?",
+    "answer": "Yes, the entire gym is fully air-conditioned with industrial-grade HVAC systems. We maintain a comfortable temperature throughout the facility with strong airflow and fresh air circulation. Even during peak summer, the gym stays cool and comfortable."
+  },
+  {
+    "id": "faq_shower_001",
+    "category": "FAQ",
+    "subcategory": "Amenities",
+    "question": "Can I shower at the gym?",
+    "answer": "Yes, clean shower facilities with hot and cold water are available in both men's and women's changing rooms. Shower gel and shampoo dispensers are provided. We recommend bringing your own towel, or you can rent one at the front desk for ₹50."
+  },
+  {
+    "id": "faq_paymonthly_001",
+    "category": "FAQ",
+    "subcategory": "Payment",
+    "question": "Can I pay monthly?",
+    "answer": "Yes, all our plans (Basic ₹1,499, Premium ₹2,499, Elite ₹3,999) are priced monthly. You can pay month-to-month with no long-term commitment. We also offer annual plans (with 2 months free) if you prefer to save money upfront."
+  },
+  {
+    "id": "faq_payonline_001",
+    "category": "FAQ",
+    "subcategory": "Payment",
+    "question": "Can I pay online?",
+    "answer": "Yes, we accept online payments via UPI (Google Pay, PhonePe, Paytm), credit/debit cards, net banking, and bank transfers. You can pay at the front desk or through our member portal for renewals."
+  },
+  {
+    "id": "faq_cancel_001",
+    "category": "FAQ",
+    "subcategory": "Cancellation",
+    "question": "Can I cancel my membership anytime?",
+    "answer": "Yes, monthly memberships can be cancelled anytime with 7 days' notice before your next billing date. No cancellation fees for monthly plans. Annual plans require 30 days' notice with a prorated refund minus an early termination fee. Visit the front desk to initiate."
+  },
+  {
+    "id": "faq_freeze_001",
+    "category": "FAQ",
+    "subcategory": "Freeze",
+    "question": "Can I freeze my membership?",
+    "answer": "Yes, you can freeze your membership for up to 30 days per year at no extra cost. Additional freeze days are available at ₹499/month. Give us 3 days' advance notice. Your billing pauses and your membership end date extends accordingly."
+  },
+  {
+    "id": "faq_upgrade_001",
+    "category": "FAQ",
+    "subcategory": "Upgrade",
+    "question": "Can I upgrade my plan?",
+    "answer": "Yes, you can upgrade at any time. We prorate the remaining days on your current plan and adjust the price difference. For example, upgrading from Basic to Premium mid-month costs only the difference for the remaining days. Visit the front desk to upgrade."
+  },
+  {
+    "id": "faq_twiceaday_001",
+    "category": "FAQ",
+    "subcategory": "Usage",
+    "question": "Can I train twice a day?",
+    "answer": "Yes, there's no limit on the number of times you can visit per day. Some members come for a morning cardio session and return for an evening strength workout. Your membership gives you unlimited access during your plan's eligible hours."
+  },
+  {
+    "id": "faq_owntrainer_001",
+    "category": "FAQ",
+    "subcategory": "Trainers",
+    "question": "Can I use my own trainer or outside trainer?",
+    "answer": "Outside trainers are not permitted at IRONGRID. This is for quality control, safety, and insurance reasons. Our in-house trainers are highly certified and experienced. If you have a specific training preference or style, let us know and we'll match you with the right trainer."
+  },
+  {
+    "id": "faq_sandals_001",
+    "category": "FAQ",
+    "subcategory": "Dress Code",
+    "question": "Can I wear sandals at the gym?",
+    "answer": "No, sandals, slippers, and open-toe footwear are not allowed on the gym floor for safety reasons. Please wear proper closed-toe athletic shoes. This rule protects you from dropped weights, stubbed toes, and equipment-related foot injuries."
+  },
+  {
+    "id": "faq_waterbottle_001",
+    "category": "FAQ",
+    "subcategory": "Amenities",
+    "question": "Can I bring my own water bottle?",
+    "answer": "Absolutely! We encourage you to bring your own water bottle. We have RO-purified water refill stations throughout the gym. Staying hydrated during your workout is important. If you forget your bottle, you can purchase one at the front desk."
+  },
+  {
+    "id": "faq_medical_001",
+    "category": "FAQ",
+    "subcategory": "Health",
+    "question": "Do I need a medical clearance to join?",
+    "answer": "We don't require a medical certificate for general membership, but we strongly recommend getting a check-up before starting any fitness program, especially if you have heart conditions, diabetes, high blood pressure, joint issues, or any chronic illness. Please inform your trainer about any medical conditions so they can adjust your program accordingly."
+  },
+  {
+    "id": "faq_supplement_001",
+    "category": "FAQ",
+    "subcategory": "Supplements",
+    "question": "Do I need to take supplements to see results?",
+    "answer": "No, supplements are not required. A balanced diet with adequate protein, carbs, and fats is the foundation of fitness. Supplements can help fill gaps but are not necessary. Our nutritionist can advise you on whether any supplements would be beneficial based on your specific diet and goals."
+  },
+  {
+    "id": "faq_contract_001",
+    "category": "FAQ",
+    "subcategory": "Contract",
+    "question": "Is there a long-term contract or lock-in period?",
+    "answer": "No. Monthly plans are month-to-month with no lock-in contract. You can cancel anytime with 7 days' notice. Annual plans are a 12-month commitment with better pricing (2 months free), but you can still cancel with 30 days' notice (early termination fee applies for annual plans)."
+  },
+  {
+    "id": "faq_joiningfee_001",
+    "category": "FAQ",
+    "subcategory": "Fees",
+    "question": "Is there a joining fee?",
+    "answer": "The standard joining fee is ₹999 (one-time). However, this fee is currently WAIVED as part of our ongoing promotion. This is a limited-time offer, so it's a great time to join. Check with the front desk for the latest offers."
+  },
+  {
+    "id": "faq_crowded_001",
+    "category": "FAQ",
+    "subcategory": "Crowd",
+    "question": "Is the gym very crowded?",
+    "answer": "Peak hours (6-9 AM and 5-9 PM on weekdays) can be busy, but our gym is spacious and well-equipped to handle the crowd. We have duplicate machines for popular equipment. For a quieter experience, try visiting between 9 AM and 5 PM or after 9 PM. Premium and Elite members can also use 24/7 access to train at any time."
+  },
+  {
+    "id": "faq_music_001",
+    "category": "FAQ",
+    "subcategory": "Atmosphere",
+    "question": "Is there music playing in the gym?",
+    "answer": "Yes, we play a curated motivational playlist throughout the gym — a mix of high-energy music that keeps the workout vibe going. The volume is kept at a level that allows you to hear your own music through earphones. If you prefer your own music, you're welcome to use earphones or headphones."
+  },
+  {
+    "id": "faq_towel_001",
+    "category": "FAQ",
+    "subcategory": "Amenities",
+    "question": "Do I need to bring my own towel?",
+    "answer": "We recommend bringing your own towel, especially for wiping sweat during workouts. If you forget, you can rent a clean towel at the front desk for ₹50. Towel rentals include a fresh, clean towel each time."
+  },
+  {
+    "id": "faq_loststuff_001",
+    "category": "FAQ",
+    "subcategory": "Lost and Found",
+    "question": "I left something at the gym. What do I do?",
+    "answer": "Check with the front desk — we maintain a lost and found section. Items are kept for 30 days. Please make sure to clear your locker before leaving and take all personal belongings. For valuable items, we recommend using the secure lockers provided."
+  },
+  {
+    "id": "faq_pregnant_001",
+    "category": "FAQ",
+    "subcategory": "Special Conditions",
+    "question": "Can I work out during pregnancy?",
+    "answer": "We recommend consulting your doctor first. If your doctor approves exercise, our female trainers are trained in prenatal fitness and can design a safe, modified workout plan. We have gentle yoga and low-impact options suitable for expecting mothers. Please always inform your trainer if you are pregnant."
+  },
+  {
+    "id": "faq_injury_001",
+    "category": "FAQ",
+    "subcategory": "Special Conditions",
+    "question": "I have an old injury. Can I still join?",
+    "answer": "Yes, many of our members train around existing injuries or conditions. Please share your medical history and any doctor's recommendations with our team. Our trainers are experienced in designing modified programs that avoid aggravating injuries while still helping you stay active and build strength."
+  },
+  {
+    "id": "faq_ptfree_001",
+    "category": "FAQ",
+    "subcategory": "Personal Training",
+    "question": "Can I get a free personal training session?",
+    "answer": "New members receive a complimentary fitness assessment which includes a brief training session with a certified trainer. Premium members get 1 PT session per month included, and Elite members get unlimited PT sessions. Additional sessions can be purchased in packages at discounted rates."
+  },
+  {
+    "id": "faq_transfer_001",
+    "category": "FAQ",
+    "subcategory": "Membership",
+    "question": "Can I transfer my membership to someone else?",
+    "answer": "Memberships are non-transferable and are registered to the individual member with a photo ID. If you need to cancel, our cancellation policy allows you to do so with proper notice. We cannot transfer remaining months or credit to another person."
+  },
+  {
+    "id": "faq_groupdiscount_001",
+    "category": "FAQ",
+    "subcategory": "Discounts",
+    "question": "Is there a group discount if my friends join together?",
+    "answer": "Yes! If 3 or more friends sign up together, each person gets 15% off their first month. For 5 or more, the discount increases to 20%. Plus, our referral program gives you ₹500 credit for every friend who joins, and your friend gets ₹250 off."
+  },
+  {
+    "id": "faq_late_night_001",
+    "category": "FAQ",
+    "subcategory": "Access",
+    "question": "Can I work out late at night?",
+    "answer": "Standard hours end at 11 PM (Mon-Sat) and 9 PM (Sunday). Premium and Elite members have 24/7 keycard access, so they can train late at night or early morning. A security guard is present during off-hours, though trainers and front desk staff are not available."
+  },
+  {
+    "id": "faq_early_morning_001",
+    "category": "FAQ",
+    "subcategory": "Access",
+    "question": "Can I come very early in the morning?",
+    "answer": "Standard hours start at 5 AM (Mon-Sat) and 6 AM (Sunday). If you want to train even earlier, the Premium and Elite plans offer 24/7 keycard access, so you can start at 3 AM or 4 AM if you prefer."
+  },
+  {
+    "id": "faq_noshow_001",
+    "category": "FAQ",
+    "subcategory": "Classes",
+    "question": "What happens if I miss a class I booked?",
+    "answer": "If you miss a booked class without cancelling 2 hours in advance, it counts as a no-show. Three no-shows in a month may temporarily restrict your class booking privileges. Please cancel in advance so your spot can go to another member on the waitlist."
+  },
+  {
+    "id": "faq_progress_001",
+    "category": "FAQ",
+    "subcategory": "Progress",
+    "question": "How do I track my fitness progress?",
+    "answer": "We offer body composition analysis (BIA machine), visual progress photos (with your consent), and workout tracking guidance. Elite members get biweekly body composition analysis and monthly nutrition check-ins. Our trainers also maintain session logs to track your strength and endurance improvements over time."
+  },
+  {
+    "id": "faq_personalbelongings_001",
+    "category": "FAQ",
+    "subcategory": "Security",
+    "question": "Are my belongings safe at the gym?",
+    "answer": "Yes, we provide secure lockers for storing your belongings during workouts. We recommend using the lockers and not leaving valuables unattended on the gym floor. The facility is covered by CCTV cameras in common areas (not in changing rooms). IRONGRID is not responsible for items left unattended outside lockers."
+  },
+  {
+    "id": "faq_chalk_001",
+    "category": "FAQ",
+    "subcategory": "Equipment",
+    "question": "Can I use chalk for lifting?",
+    "answer": "Yes, lifting chalk is permitted and available in the lifting zone. We request that you use chalk only in the designated lifting area and clean up any spills. Liquid chalk is also allowed and preferred as it's less messy."
+  },
+  {
+    "id": "faq_recipebands_001",
+    "category": "FAQ",
+    "subcategory": "Equipment",
+    "question": "Can I bring my own resistance bands or equipment?",
+    "answer": "Yes, you're welcome to bring personal accessories like resistance bands, wrist wraps, lifting belts, knee sleeves, or jump ropes. However, large equipment or items that could interfere with other members or gym operations are not allowed. Please don't leave personal items on the floor."
+  },
+  {
+    "id": "faq_couple_train_001",
+    "category": "FAQ",
+    "subcategory": "Training",
+    "question": "Can my partner and I train together?",
+    "answer": "Yes! Couples are welcome to train together. We also offer couple memberships with a 15% discount. You can share exercises, spot each other, and motivate each other. Partner-based exercises are also a fun part of some group classes."
+  },
+  {
+    "id": "faq_diet_plan_001",
+    "category": "FAQ",
+    "subcategory": "Nutrition",
+    "question": "Do you provide diet plans?",
+    "answer": "Yes, personalized diet and meal plans are available through our nutrition consultation service. Elite members get one monthly nutrition consultation included. Other members can book at ₹999 per session. Our nutritionist creates plans based on your body composition, goals, dietary preferences, and daily routine."
+  },
+  {
+    "id": "faq_weight_goal_001",
+    "category": "FAQ",
+    "subcategory": "Goals",
+    "question": "How long will it take to see results?",
+    "answer": "Results vary based on your consistency, effort, nutrition, and goals. Most members notice improved energy and mood within 2 weeks, visible changes in 4-8 weeks, and significant transformation in 3-6 months. Our trainers set realistic expectations and track your progress to keep you motivated."
+  },
+  {
+    "id": "faq_cardio_only_001",
+    "category": "FAQ",
+    "subcategory": "Training",
+    "question": "Can I only do cardio?",
+    "answer": "Absolutely! You can use any equipment you like. If your goal is primarily cardio, you have access to treadmills, bikes, rowers, ellipticals, stair climbers, and more. We do recommend incorporating some strength training for overall health, but it's entirely your choice."
+  },
+  {
+    "id": "faq_swimming_001",
+    "category": "FAQ",
+    "subcategory": "Facilities",
+    "question": "Do you have a swimming pool?",
+    "answer": "No, IRONGRID does not currently have a swimming pool. We focus on gym floor training, strength, cardio, functional fitness, and group classes. We are evaluating the possibility of adding aquatic facilities in a future expansion."
+  },
+  {
+    "id": "faq_spa_001",
+    "category": "FAQ",
+    "subcategory": "Facilities",
+    "question": "Do you have a spa?",
+    "answer": "We don't have a full spa, but we do offer a steam room, sauna, and a recovery zone with massage guns and foam rollers for Premium and Elite members. These facilities provide excellent post-workout relaxation and muscle recovery."
+  },
+  {
+    "id": "faq_crossfit_equip_001",
+    "category": "FAQ",
+    "subcategory": "Equipment",
+    "question": "Do you have CrossFit equipment?",
+    "answer": "Yes! Our functional zone has all the equipment used in CrossFit-style workouts: pull-up rigs, plyo boxes, kettlebells, wall balls, rowing machines, ski ergs, battle ropes, barbells for Olympic lifts, and bumper plates. We also offer CrossFit-style group classes led by certified coaches."
+  },
+  {
+    "id": "faq_personal_space_001",
+    "category": "FAQ",
+    "subcategory": "Comfort",
+    "question": "Is there enough space between machines?",
+    "answer": "Yes, our gym is designed with wide spacing between machines and equipment stations. We follow industry standards for minimum clearance distances. The layout is organized into clearly separated zones (cardio, strength, functional, stretching) with ample room to move around safely."
+  },
+  {
+    "id": "faq_mirror_001",
+    "category": "FAQ",
+    "subcategory": "Facilities",
+    "question": "Do you have mirrors for form checking?",
+    "answer": "Yes, full-length mirrors are installed throughout the gym — in the free weights area, strength zone, stretching area, and group class studio. Mirrors are essential for checking your form and technique during exercises."
+  },
+  {
+    "id": "faq_app_001",
+    "category": "FAQ",
+    "subcategory": "Technology",
+    "question": "Do you have a mobile app?",
+    "answer": "We have a member portal accessible via web browser that allows you to manage your membership, book classes and personal training sessions, track payments, and view announcements. A dedicated mobile app is under development and will be available soon."
+  },
+  {
+    "id": "faq_instagram_001",
+    "category": "FAQ",
+    "subcategory": "Social Media",
+    "question": "Are you on social media?",
+    "answer": "Yes! Follow us on Instagram and Facebook for workout tips, member spotlights, class schedules, special offers, and gym updates. We regularly post transformation stories, event announcements, and motivational content. Our handles are available at the front desk."
+  },
+  {
+    "id": "faq_smell_001",
+    "category": "FAQ",
+    "subcategory": "Hygiene",
+    "question": "Does the gym smell bad?",
+    "answer": "We take active measures to maintain a fresh-smelling gym: powerful ventilation and air conditioning, regular deep cleaning, sanitizer stations throughout, odor-neutralizing products, and clean restrooms. We maintain high hygiene standards to ensure a pleasant training environment."
+  },
+  {
+    "id": "faq_weightlimit_001",
+    "category": "FAQ",
+    "subcategory": "Equipment",
+    "question": "Is there a weight limit on machines?",
+    "answer": "Our commercial-grade equipment supports users up to 150-200 kg (330-440 lbs) depending on the specific machine. Benches support up to 200 kg combined (user + weight). Power racks are rated for 400+ kg loads. If you have any concerns, our staff can advise you on the weight limits for specific equipment."
+  },
+  {
+    "id": "faq_noise_001",
+    "category": "FAQ",
+    "subcategory": "Rules",
+    "question": "Can I drop weights or make noise?",
+    "answer": "Controlled lowering of weights is encouraged for safety. Intentional slamming or excessively loud dropping of weights is not allowed, except in designated Olympic lifting areas with bumper plates and proper platforms. Rubber flooring throughout the gym helps absorb impact. Excessive grunting that disturbs other members is discouraged."
+  },
+  {
+    "id": "faq_membership_id_001",
+    "category": "FAQ",
+    "subcategory": "Registration",
+    "question": "What do I need to bring for registration?",
+    "answer": "To register for membership, please bring: (1) A valid government-issued photo ID (Aadhaar, PAN, passport, or driving license), (2) A passport-sized photo or we'll take one at the desk, (3) Payment for your chosen plan. That's it! Registration takes about 10-15 minutes."
+  },
+  {
+    "id": "faq_no_result_001",
+    "category": "FAQ",
+    "subcategory": "Results",
+    "question": "What if I'm not seeing results?",
+    "answer": "If you feel stuck, speak with our trainers. Common reasons for plateaus include: inconsistent attendance, inadequate nutrition, insufficient sleep, or needing a program change. Our trainers can reassess your program, and a nutrition consultation can identify dietary improvements. We're here to help you break through."
+  },
+  {
+    "id": "faq_motivation_001",
+    "category": "FAQ",
+    "subcategory": "Community",
+    "question": "How do you keep members motivated?",
+    "answer": "We keep the motivation high through: seasonal fitness challenges with prizes, body composition tracking, progress milestones, an active member community, group classes, social media shoutouts for achievements, loyalty rewards program, and supportive trainers who remember your name and goals."
+  },
+  {
+    "id": "faq_reopening_001",
+    "category": "FAQ",
+    "subcategory": "Maintenance",
+    "question": "Is the gym ever closed for maintenance?",
+    "answer": "We close for one full maintenance day per year, announced well in advance. Minor maintenance and repairs are done during off-peak hours without closing the gym. Equipment taken out for repair is clearly tagged, and alternatives are available. We never compromise on equipment safety."
+  },
+  {
+    "id": "faq_pets_001",
+    "category": "FAQ",
+    "subcategory": "Rules",
+    "question": "Can I bring my pet?",
+    "answer": "For safety and hygiene reasons, pets are not allowed inside the gym facility. Service animals for members with disabilities are the only exception. We appreciate your understanding."
+  },
+  {
+    "id": "faq_food_floor_001",
+    "category": "FAQ",
+    "subcategory": "Rules",
+    "question": "Can I eat on the gym floor?",
+    "answer": "Eating is not permitted on the gym floor. You can consume food in the café area, lounge, or reception area. Protein shakes and water bottles are allowed on the floor. We want to keep the training area clean and free of spills."
+  },
+  {
+    "id": "faq_bag_001",
+    "category": "FAQ",
+    "subcategory": "Rules",
+    "question": "Can I bring my gym bag on the floor?",
+    "answer": "We recommend storing your gym bag in a locker. Small personal bags can be kept near you if they don't obstruct walkways or equipment. Large bags, backpacks, and trolley bags should be stored in lockers for safety."
+  },
+  {
+    "id": "faq_headphones_001",
+    "category": "FAQ",
+    "subcategory": "Equipment",
+    "question": "Can I use wireless earbuds or headphones?",
+    "answer": "Yes, wireless earbuds and headphones are welcome. In fact, we encourage them if you prefer your own music. Just make sure you can still hear safety announcements and staff/trainer instructions when needed. Avoid having the volume so high that you're completely isolated."
+  },
+  {
+    "id": "faq_refill_001",
+    "category": "FAQ",
+    "subcategory": "Amenities",
+    "question": "Is there a place to refill my shaker or water bottle?",
+    "answer": "Yes, we have multiple water refill stations with RO-purified water placed near the cardio zone, weights area, and stretching zone. Both cold and room-temperature water are available. You can refill your shaker or water bottle at any of these stations throughout your workout."
+  },
+  {
+    "id": "faq_floor_type_001",
+    "category": "FAQ",
+    "subcategory": "Safety",
+    "question": "What type of flooring does the gym have?",
+    "answer": "We use commercial-grade rubber shock-absorbing flooring throughout the gym. The lifting area has extra-thick impact-resistant mats. The functional zone has turf flooring. The stretching area has cushioned mats. This flooring protects joints, reduces noise, and provides stable footing for all exercises."
+  },
+  {
+    "id": "faq_branch_001",
+    "category": "FAQ",
+    "subcategory": "Expansion",
+    "question": "Do you have other branches?",
+    "answer": "Currently, IRONGRID operates from a single location. We're focused on delivering the best possible experience at our flagship gym. We are planning expansion and may open additional branches in the future. Stay tuned to our social media for announcements."
+  },
+  {
+    "id": "faq_trial_creditcard_001",
+    "category": "FAQ",
+    "subcategory": "Trial",
+    "question": "Do I need a credit card for the free trial?",
+    "answer": "No, the 7-day free trial requires no credit card and no payment. Just bring a valid photo ID, and we'll set you up. There's no obligation to join after the trial — it's completely risk-free."
+  },
+  {
+    "id": "faq_multiplevisit_001",
+    "category": "FAQ",
+    "subcategory": "Usage",
+    "question": "Can I visit more than once a day?",
+    "answer": "Yes, you can visit as many times as you want per day. Some members split their training into two sessions (e.g., morning cardio and evening weights). There's no limit on daily visits with any membership plan."
+  },
+  {
+    "id": "faq_feedback_001",
+    "category": "FAQ",
+    "subcategory": "Feedback",
+    "question": "How do I provide feedback or file a complaint?",
+    "answer": "We value your feedback. You can: speak to the front desk or manager in person, fill out a feedback form available at reception, email us through our website, or message us on social media. We take all feedback seriously and aim to respond within 24 hours. Anonymous feedback is also accepted."
+  },
+  {
+    "id": "faq_insurance_001",
+    "category": "FAQ",
+    "subcategory": "Safety",
+    "question": "Does the gym have insurance?",
+    "answer": "Yes, IRONGRID carries comprehensive liability insurance covering the facility and equipment. However, members are encouraged to have personal health insurance. All members sign a waiver acknowledging the inherent risks of physical exercise. We prioritize safety through proper equipment maintenance, trained staff, and emergency protocols."
+  }
+]

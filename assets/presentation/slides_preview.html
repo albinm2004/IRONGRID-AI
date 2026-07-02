@@ -1,0 +1,1085 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>IRONGRID AI — Slide Deck Preview</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+    
+    :root {
+      --bg-color: #F8FAFC;
+      --surface-color: #FFFFFF;
+      --border-color: #E2E8F0;
+      --text-primary: #0F172A;
+      --text-secondary: #475569;
+      --text-muted: #94A3B8;
+      --accent-green: #10B981;
+      --light-green: #D1FAE5;
+      --accent-blue: #3B82F6;
+      --light-blue: #DBEAFE;
+      --accent-red: #EF4444;
+      --light-red: #FEE2E2;
+      --deep-navy: #1E293B;
+    }
+
+    body {
+      background: #E2E8F0;
+      color: var(--text-primary);
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+    }
+
+    h1.page-title {
+      font-size: 28px;
+      margin-bottom: 5px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: var(--deep-navy);
+    }
+
+    p.page-subtitle {
+      color: var(--text-secondary);
+      margin-top: 0;
+      margin-bottom: 30px;
+      font-size: 16px;
+    }
+
+    .slide-container {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 50px;
+      width: 100%;
+      max-width: 1100px;
+    }
+
+    .slide {
+      background: var(--bg-color);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+      position: relative;
+      overflow: hidden;
+      padding: 45px 50px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+
+    /* Ambient background gradient blobs */
+    .slide::before {
+      content: '';
+      position: absolute;
+      top: -150px;
+      right: -150px;
+      width: 400px;
+      height: 400px;
+      background: radial-gradient(circle, rgba(16, 185, 129, 0.06) 0%, rgba(255,255,255,0) 70%);
+      border-radius: 50%;
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    .slide::after {
+      content: '';
+      position: absolute;
+      bottom: -150px;
+      left: -150px;
+      width: 400px;
+      height: 400px;
+      background: radial-gradient(circle, rgba(59, 130, 246, 0.05) 0%, rgba(255,255,255,0) 70%);
+      border-radius: 50%;
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    .slide-num {
+      position: absolute;
+      top: 20px;
+      right: 25px;
+      font-size: 11px;
+      color: var(--text-muted);
+      font-weight: bold;
+      border: 1px solid var(--border-color);
+      padding: 3px 8px;
+      border-radius: 6px;
+      z-index: 10;
+      background: var(--surface-color);
+    }
+
+    .category-badge {
+      display: inline-flex;
+      align-items: center;
+      background: var(--light-blue);
+      color: var(--accent-blue);
+      font-size: 9px;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 6px;
+      letter-spacing: 1px;
+      margin-bottom: 10px;
+      width: fit-content;
+      text-transform: uppercase;
+      z-index: 10;
+    }
+
+    .slide-header {
+      margin-bottom: 30px;
+      z-index: 10;
+    }
+
+    .slide-title {
+      font-size: 30px;
+      font-weight: 800;
+      margin: 0;
+      color: var(--text-primary);
+      letter-spacing: -0.5px;
+    }
+
+    .slide-subtitle {
+      font-size: 14px;
+      color: var(--text-secondary);
+      margin-top: 6px;
+      margin-bottom: 0;
+    }
+
+    /* Grid system for slide contents */
+    .grid-2x2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+
+    .grid-3x2 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: 1fr 1fr;
+      gap: 16px;
+      flex-grow: 1;
+    }
+
+    .grid-4x1 {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+      flex-grow: 1;
+    }
+
+    .grid-5x1 {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 12px;
+      flex-grow: 1;
+    }
+
+    .grid-split {
+      display: grid;
+      grid-template-columns: 1.1fr 1fr;
+      gap: 35px;
+      flex-grow: 1;
+    }
+
+    .card {
+      background: var(--surface-color);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 20px;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      z-index: 10;
+      box-sizing: border-box;
+    }
+
+    .card::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 15px;
+      bottom: 15px;
+      width: 4px;
+      background: var(--accent-green);
+      border-radius: 0 4px 4px 0;
+    }
+
+    .card.blue::before { background: var(--accent-blue); }
+    .card.red::before { background: var(--accent-red); }
+    .card.red { background: var(--light-red); border-color: rgba(239,68,68,0.2); }
+    
+    .card-title {
+      font-size: 14px;
+      font-weight: 700;
+      margin-bottom: 8px;
+      color: var(--text-primary);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    
+    .card-desc {
+      font-size: 11px;
+      color: var(--text-secondary);
+      line-height: 1.5;
+    }
+
+    .pill-badge {
+      display: inline-block;
+      background: var(--light-blue);
+      color: var(--accent-blue);
+      font-size: 10px;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 20px;
+      margin-right: 8px;
+      margin-bottom: 8px;
+    }
+
+    /* Comparison columns */
+    .compare-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+      flex-grow: 1;
+      z-index: 10;
+    }
+
+    .compare-col {
+      border-radius: 16px;
+      padding: 24px;
+      box-sizing: border-box;
+      border: 1.5px solid var(--accent-red);
+      background: var(--light-red);
+    }
+    .compare-col.green {
+      border-color: var(--accent-green);
+      background: var(--light-green);
+    }
+
+    .compare-col h3 {
+      font-size: 14px;
+      font-weight: 800;
+      margin-top: 0;
+      margin-bottom: 20px;
+      color: var(--accent-red);
+    }
+    .compare-col.green h3 {
+      color: var(--accent-green);
+    }
+
+    .compare-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .compare-list li {
+      font-size: 12px;
+      line-height: 1.5;
+      color: var(--text-primary);
+    }
+
+    /* Cover Slide Specifics */
+    .cover-slide {
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 40px;
+      align-items: center;
+    }
+
+    .cover-left {
+      z-index: 10;
+    }
+
+    .cover-title {
+      font-size: 52px;
+      font-weight: 800;
+      margin: 0;
+      line-height: 1.1;
+      letter-spacing: -1.5px;
+      color: var(--text-primary);
+    }
+
+    .cover-subtitle {
+      font-size: 16px;
+      color: var(--text-secondary);
+      margin-top: 12px;
+      margin-bottom: 30px;
+      line-height: 1.5;
+    }
+
+    .cover-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 40px;
+    }
+
+    .cover-meta {
+      font-size: 11px;
+      color: var(--text-muted);
+      border-top: 1px solid var(--border-color);
+      padding-top: 15px;
+      line-height: 1.6;
+    }
+    .cover-meta span {
+      color: var(--text-primary);
+      font-weight: 600;
+    }
+
+    /* Chatbot Mockup styles */
+    .chatbot-mockup {
+      background: var(--surface-color);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      box-shadow: 0 15px 35px rgba(0,0,0,0.04);
+      z-index: 10;
+    }
+
+    .chatbot-header {
+      background: var(--deep-navy);
+      color: white;
+      padding: 14px 20px;
+      font-size: 12px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      background: var(--accent-green);
+      border-radius: 50%;
+    }
+
+    .chatbot-messages {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      flex-grow: 1;
+      background: #FAFAFB;
+    }
+
+    .chat-bubble {
+      max-width: 85%;
+      padding: 12px 16px;
+      font-size: 11.5px;
+      line-height: 1.5;
+      border-radius: 12px;
+      box-sizing: border-box;
+    }
+    .chat-bubble.user {
+      align-self: flex-end;
+      background: var(--light-blue);
+      color: var(--text-primary);
+      border-bottom-right-radius: 2px;
+    }
+    .chat-bubble.ai {
+      align-self: flex-start;
+      background: var(--surface-color);
+      color: var(--text-primary);
+      border: 1.5px solid var(--accent-green);
+      border-bottom-left-radius: 2px;
+    }
+
+    .grounded-badge {
+      background: var(--light-green);
+      color: var(--accent-green);
+      border-radius: 8px;
+      padding: 10px 14px;
+      font-size: 10px;
+      font-weight: 600;
+      line-height: 1.4;
+    }
+
+    /* Architecture slide flow elements */
+    .flow-container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      justify-content: center;
+      flex-grow: 1;
+      z-index: 10;
+    }
+    .flow-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+    }
+    .flow-card {
+      background: var(--surface-color);
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      padding: 12px;
+      width: 18%;
+      box-sizing: border-box;
+      position: relative;
+    }
+    .flow-card::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 10px;
+      bottom: 10px;
+      width: 3.5px;
+      background: var(--accent-blue);
+      border-radius: 0 3px 3px 0;
+    }
+    .flow-card.green::before {
+      background: var(--accent-green);
+    }
+    .flow-card-title {
+      font-size: 11.5px;
+      font-weight: 700;
+      margin-bottom: 4px;
+      color: var(--text-primary);
+    }
+    .flow-card-desc {
+      font-size: 9.5px;
+      color: var(--text-secondary);
+      line-height: 1.4;
+    }
+    .flow-arrow {
+      font-size: 16px;
+      color: var(--accent-blue);
+      font-weight: bold;
+    }
+    .flow-arrow-down {
+      align-self: flex-end;
+      margin-right: 8%;
+      font-size: 20px;
+      color: var(--accent-green);
+      font-weight: bold;
+      line-height: 1;
+    }
+
+    /* KPI results metrics */
+    .kpi-container {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 12px;
+      margin-top: 10px;
+      flex-grow: 1;
+      z-index: 10;
+    }
+    .kpi-card {
+      background: var(--surface-color);
+      border: 1px solid var(--border-color);
+      border-radius: 14px;
+      padding: 24px 18px;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+    .kpi-card::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 15px;
+      bottom: 15px;
+      width: 4px;
+      background: var(--accent-green);
+      border-radius: 0 4px 4px 0;
+    }
+    .kpi-card.blue::before {
+      background: var(--accent-blue);
+    }
+    .kpi-val {
+      font-size: 28px;
+      font-weight: 800;
+      margin-bottom: 6px;
+    }
+    .kpi-val.green { color: var(--accent-green); }
+    .kpi-val.blue { color: var(--accent-blue); }
+    .kpi-label {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--text-primary);
+      margin-bottom: 8px;
+    }
+    .kpi-desc {
+      font-size: 10px;
+      color: var(--text-secondary);
+      line-height: 1.4;
+    }
+
+    /* End Slide */
+    .end-slide {
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .end-title {
+      font-size: 60px;
+      font-weight: 800;
+      color: var(--text-primary);
+      margin: 0;
+      letter-spacing: 2px;
+    }
+    .end-subtitle {
+      font-size: 20px;
+      color: var(--accent-green);
+      font-weight: 700;
+      margin-top: 8px;
+      margin-bottom: 25px;
+    }
+    .qr-box {
+      border: 1.5px solid var(--accent-blue);
+      background: var(--surface-color);
+      border-radius: 12px;
+      width: 140px;
+      height: 140px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: 10px;
+      font-weight: 700;
+      color: var(--text-primary);
+      gap: 10px;
+      margin-bottom: 25px;
+      z-index: 10;
+    }
+    .qr-box span {
+      font-size: 24px;
+    }
+    .end-meta {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--text-secondary);
+      z-index: 10;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 class="page-title">IRONGRID AI Presentation Deck Preview</h1>
+  <p class="page-subtitle">Redesigned Premium Light-Slate Pitch Deck (Visual Browser Match)</p>
+
+  <div class="slide-container">
+
+    <!-- SLIDE 1: Cover Slide -->
+    <div class="slide">
+      <span class="slide-num">Slide 1</span>
+      <div class="cover-slide">
+        <div class="cover-left">
+          <span class="category-badge" style="background: var(--light-green); color: var(--accent-green);">PRODUCT LAUNCH</span>
+          <h1 class="cover-title">IRONGRID AI</h1>
+          <p class="cover-subtitle">Intelligent, context-grounded virtual receptionist assistant for premium fitness clubs.</p>
+          <div class="cover-badges">
+            <span class="pill-badge">🐍 Python</span>
+            <span class="pill-badge">⚡ Flask</span>
+            <span class="pill-badge">♊ Gemini API</span>
+            <span class="pill-badge">🗄️ ChromaDB</span>
+            <span class="pill-badge">🤖 RAG Core</span>
+          </div>
+          <div class="cover-meta">
+            <strong>DEVELOPER:</strong> <span>Albin Mathew</span><br/>
+            <strong>EVALUATION:</strong> <span>Final Year Engineering Project Evaluation</span><br/>
+            <strong>SUPERVISION:</strong> <span>Department of Computer Science & Engineering</span>
+          </div>
+        </div>
+        <div class="chatbot-mockup">
+          <div class="chatbot-header">
+            <div class="status-dot"></div>
+            <span>IRONGRID Assistant</span>
+          </div>
+          <div class="chatbot-messages">
+            <div class="chat-bubble user">What membership plans do you offer?</div>
+            <div class="chat-bubble ai">
+              We offer three monthly membership tiers:<br/>
+              • Basic: Rs 2,500/mo (Cardio & Strength access)<br/>
+              • Premium: Rs 4,500/mo (Adds group classes)<br/>
+              • Elite: Rs 7,000/mo (Full access + personal coach)
+            </div>
+            <div class="grounded-badge">
+              ✓ Grounded context matching. Confidence: HIGH<br/>
+              Source: [Membership > Pricing Structures]
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDE 2: What is IRONGRID AI -->
+    <div class="slide">
+      <span class="slide-num">Slide 2</span>
+      <div class="slide-header">
+        <h2 class="slide-title">What is IRONGRID AI?</h2>
+        <p class="slide-subtitle">The modern conversational interface replacing repetitive front desk inquiries</p>
+      </div>
+      <div class="grid-split">
+        <div class="cover-left">
+          <h3 style="font-size: 18px; font-weight: 700; color: var(--text-primary); margin-top: 0; margin-bottom: 12px;">Grounded Front-Desk Operations</h3>
+          <p style="font-size: 13px; line-height: 1.6; color: var(--text-secondary); margin-bottom: 20px;">
+            Designed to answer visitor queries regarding memberships, equipment, class schedules, and rules. Unlike generic LLM assistants, IRONGRID AI restricts its responses to facts pre-verified and indexed in its ChromaDB knowledge base.
+          </p>
+          <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 10px;">
+            <li style="font-size: 12.5px; font-weight: 600; color: var(--text-primary); display: flex; align-items: center; gap: 8px;">
+              <span style="color: var(--accent-green); font-weight: bold;">✓</span> Eliminates front-desk phone queues and visitor wait times
+            </li>
+            <li style="font-size: 12.5px; font-weight: 600; color: var(--text-primary); display: flex; align-items: center; gap: 8px;">
+              <span style="color: var(--accent-green); font-weight: bold;">✓</span> Enforces strict boundaries against medical/workout planning
+            </li>
+            <li style="font-size: 12.5px; font-weight: 600; color: var(--text-primary); display: flex; align-items: center; gap: 8px;">
+              <span style="color: var(--accent-green); font-weight: bold;">✓</span> Sub-second response latencies with persistent indexing
+            </li>
+            <li style="font-size: 12.5px; font-weight: 600; color: var(--text-primary); display: flex; align-items: center; gap: 8px;">
+              <span style="color: var(--accent-green); font-weight: bold;">✓</span> Contextual session memory tracking across 10 chat turns
+            </li>
+          </ul>
+        </div>
+        <div class="grid-2x2">
+          <div class="card">
+            <div class="card-title">🔍 Semantic Indexing</div>
+            <div class="card-desc">Maps natural user queries into dense 384-dimensional arrays using SentenceTransformers.</div>
+          </div>
+          <div class="card blue">
+            <div class="card-title">🛡️ Strict Guardrails</div>
+            <div class="card-desc">System prompt constraints block off-topic chat or health advisory claims.</div>
+          </div>
+          <div class="card blue">
+            <div class="card-title">⚙️ Robust Error Handling</div>
+            <div class="card-desc">Gracefully serves direct text templates automatically if external APIs fail.</div>
+          </div>
+          <div class="card">
+            <div class="card-title">📊 Metadata Analytics</div>
+            <div class="card-desc">Surfaces confidence ratings and category labels along with responses.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDE 3: Problem Statement -->
+    <div class="slide">
+      <span class="slide-num">Slide 3</span>
+      <div class="slide-header">
+        <h2 class="slide-title">Problem Statement</h2>
+        <p class="slide-subtitle">Existing reception structures are highly repetitive, cost-inefficient, and prone to lead leakage</p>
+      </div>
+      <div class="grid-3x2">
+        <div class="card red">
+          <div class="card-title">⏳ Staff Timing Overhead</div>
+          <div class="card-desc">Receptionists waste up to 40% of their workday answering basic FAQ calls regarding timings, fees, and rules.</div>
+        </div>
+        <div class="card red">
+          <div class="card-title">📉 High Lead Abandonment</div>
+          <div class="card-desc">Interested prospects bounce from signups when receptionists are busy handling check-ins or billing issues.</div>
+        </div>
+        <div class="card red">
+          <div class="card-title">🔒 Inflexible Static FAQs</div>
+          <div class="card-desc">Simple websites cannot handle personalized questions or follow-up membership tier queries.</div>
+        </div>
+        <div class="card red">
+          <div class="card-title">🌙 Off-Hours Lead Loss</div>
+          <div class="card-desc">Inquiries sent outside gym operating hours remain unanswered, resulting in direct signup drop-offs.</div>
+        </div>
+        <div class="card red">
+          <div class="card-title">⚠️ Hallucinating AI Bots</div>
+          <div class="card-desc">Unconstrained chatbots guess specifications, hallucinate memberships, or make unverified promises.</div>
+        </div>
+        <div class="card red">
+          <div class="card-title">🧠 Context-Deaf Sessions</div>
+          <div class="card-desc">Standard FAQ tools forget preceding statements instantly, forcing clients to repeat requirements.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDE 4: Project Objectives -->
+    <div class="slide">
+      <span class="slide-num">Slide 4</span>
+      <div class="slide-header">
+        <h2 class="slide-title">Project Objectives</h2>
+        <p class="slide-subtitle">Four core pillars for automated reception support</p>
+      </div>
+      <div class="grid-4x1">
+        <div class="card blue">
+          <div class="card-title">⚡ 01 / INSTANT ASSIST</div>
+          <div class="card-desc">Deliver gym rules, timings, and class schedules instantly with sub-second response times.</div>
+        </div>
+        <div class="card">
+          <div class="card-title">🎯 02 / ZERO GUESSWORK</div>
+          <div class="card-desc">RAG checks verify context boundaries strictly before generating LLM response synthesis.</div>
+        </div>
+        <div class="card">
+          <div class="card-title">💾 03 / CHROME STORAGE</div>
+          <div class="card-desc">Implement persistent local vector storage indices for immediate cosine similarity calculations.</div>
+        </div>
+        <div class="card blue">
+          <div class="card-title">🔍 04 / METADATA AUDIT</div>
+          <div class="card-desc">Provide dynamic source categories and similarity confidence values for full transparency.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDE 5: Why RAG -->
+    <div class="slide">
+      <span class="slide-num">Slide 5</span>
+      <div class="slide-header">
+        <h2 class="slide-title">Why RAG?</h2>
+        <p class="slide-subtitle">Comparison: Traditional LLM Memory vs. Retrieval-Augmented Generation</p>
+      </div>
+      <div class="compare-grid">
+        <div class="compare-col">
+          <h3>❌ TRADITIONAL CHATBOTS (LLM Memory)</h3>
+          <ul class="compare-list">
+            <li>• <strong>Knowledge Source:</strong> Static pre-trained weights (cannot adapt to changes)</li>
+            <li>• <strong>Hallucination Risk:</strong> High (generates false values and details confidently)</li>
+            <li>• <strong>Attribution:</strong> None (unable to explain or reference information origin)</li>
+            <li>• <strong>Updates:</strong> Costly (requires expensive model fine-tuning or retraining)</li>
+            <li>• <strong>Behavior Boundaries:</strong> Weak (prone to giving unsolicited medical/workout tips)</li>
+          </ul>
+        </div>
+        <div class="compare-col green">
+          <h3>✅ IRONGRID AI (RAG Core)</h3>
+          <ul class="compare-list">
+            <li>• <strong>Knowledge Source:</strong> Live ChromaDB persistent vector index chunks</li>
+            <li>• <strong>Hallucination Risk:</strong> Guarded (strictly locked to retrieved facts)</li>
+            <li>• <strong>Attribution:</strong> Explicit (returns source subcategory tags and relevance values)</li>
+            <li>• <strong>Updates:</strong> Instant (simple database JSON file edits & re-embedding)</li>
+            <li>• <strong>Behavior Boundaries:</strong> Strong (locked strictly to reception assistant role)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDE 6: Technology Stack -->
+    <div class="slide">
+      <span class="slide-num">Slide 6</span>
+      <div class="slide-header">
+        <h2 class="slide-title">Technology Stack</h2>
+        <p class="slide-subtitle">Lightweight, integrated components for production-level speed</p>
+      </div>
+      <div class="grid-3x2" style="grid-template-columns: repeat(5, 1fr); grid-template-rows: 1fr 1fr;">
+        <div class="card blue">
+          <div class="card-title">🐍 Python 3.13</div>
+          <div class="card-desc">Main logic execution layer and scripting runtime.</div>
+        </div>
+        <div class="card blue">
+          <div class="card-title">⚡ Flask Backend</div>
+          <div class="card-desc">Python REST API router coordinating pipeline processes.</div>
+        </div>
+        <div class="card">
+          <div class="card-title">♊ Gemini 2.0</div>
+          <div class="card-desc">Grounded language synthesis generating final responses.</div>
+        </div>
+        <div class="card">
+          <div class="card-title">🗄️ ChromaDB</div>
+          <div class="card-desc">Vector database repository storing document indices.</div>
+        </div>
+        <div class="card">
+          <div class="card-title">🤖 MiniLM Model</div>
+          <div class="card-desc">SentenceTransformers for local vector encoding.</div>
+        </div>
+        <div class="card blue">
+          <div class="card-title">🌐 HTML5 CSS3</div>
+          <div class="card-desc">Client interface markup structure and styling design.</div>
+        </div>
+        <div class="card blue">
+          <div class="card-title">⚙️ Vanilla JS</div>
+          <div class="card-desc">Handles user interface state updates and payloads.</div>
+        </div>
+        <div class="card">
+          <div class="card-title">📄 JSON DB</div>
+          <div class="card-desc">Structured corpus housing 225 verified gym facts.</div>
+        </div>
+        <div class="card blue">
+          <div class="card-title">💻 VS Code</div>
+          <div class="card-desc">Integrated IDE environment for code construction.</div>
+        </div>
+        <div class="card blue">
+          <div class="card-title">📦 Pip Packages</div>
+          <div class="card-desc">Manages software dependencies and virtual runtime.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDE 7: System Architecture -->
+    <div class="slide">
+      <span class="slide-num">Slide 7</span>
+      <div class="slide-header">
+        <h2 class="slide-title">System Architecture</h2>
+        <p class="slide-subtitle">End-to-end RAG data processing pipeline (Double-row flow)</p>
+      </div>
+      <div class="flow-container">
+        <div class="flow-row">
+          <div class="flow-card">
+            <div class="flow-card-title">1. 👤 User Query</div>
+            <div class="flow-card-desc">Visitor inputs a natural language inquiry.</div>
+          </div>
+          <div class="flow-arrow">→</div>
+          <div class="flow-card">
+            <div class="flow-card-title">2. 🖥️ Chat UI</div>
+            <div class="flow-card-desc">JavaScript packages parameters to fetch POST.</div>
+          </div>
+          <div class="flow-arrow">→</div>
+          <div class="flow-card">
+            <div class="flow-card-title">3. ⚡ Flask API</div>
+            <div class="flow-card-desc">Backend controller routes variables securely.</div>
+          </div>
+          <div class="flow-arrow">→</div>
+          <div class="flow-card green">
+            <div class="flow-card-title">4. 🤖 Embedder</div>
+            <div class="flow-card-desc">SentenceTransformer embeds query string.</div>
+          </div>
+          <div class="flow-arrow">→</div>
+          <div class="flow-card green">
+            <div class="flow-card-title">5. 🗄️ ChromaDB</div>
+            <div class="flow-card-desc">Cosine similarity identifies matrix matches.</div>
+          </div>
+        </div>
+        <div class="flow-arrow-down">↓</div>
+        <div class="flow-row">
+          <div class="flow-card green">
+            <div class="flow-card-title">6. 🔍 Top-5 Search</div>
+            <div class="flow-card-desc">Pulls top 5 relevant facts from local DB.</div>
+          </div>
+          <div class="flow-arrow">→</div>
+          <div class="flow-card">
+            <div class="flow-card-title">7. 📄 Prompt Build</div>
+            <div class="flow-card-desc">Assembles context facts and 10-turn history.</div>
+          </div>
+          <div class="flow-arrow">→</div>
+          <div class="flow-card green">
+            <div class="flow-card-title">8. ♊ Gemini API</div>
+            <div class="flow-card-desc">Sends bounded content for text synthesis.</div>
+          </div>
+          <div class="flow-arrow">→</div>
+          <div class="flow-card green">
+            <div class="flow-card-title">9. 🛡️ Grounded text</div>
+            <div class="flow-card-desc">Compiles answers matching the constraints.</div>
+          </div>
+          <div class="flow-arrow">→</div>
+          <div class="flow-card">
+            <div class="flow-card-title">10. 📈 UI Display</div>
+            <div class="flow-card-desc">Displays reply, confidence rating and sources.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDE 8: Our Solution (Feature Summary) -->
+    <div class="slide">
+      <span class="slide-num">Slide 8</span>
+      <div class="slide-header">
+        <h2 class="slide-title">Our Solution</h2>
+        <p class="slide-subtitle">Core features of the IRONGRID AI conversational virtual receptionist</p>
+      </div>
+      <div class="grid-3x2" style="grid-template-columns: repeat(4, 1fr); grid-template-rows: 1fr 1fr;">
+        <div class="card">
+          <div class="card-title">🔍 Semantic Matching</div>
+          <div class="card-desc">Calculates query vector similarities using local SentenceTransformer embeddings.</div>
+        </div>
+        <div class="card blue">
+          <div class="card-title">♊ Grounded Synthesis</div>
+          <div class="card-desc">Gemini API synthesizes conversational answers using exclusively database contexts.</div>
+        </div>
+        <div class="card blue">
+          <div class="card-title">🔖 Source Attribution</div>
+          <div class="card-desc">Surfaces source categories, subcategories, and relevance scores with every response.</div>
+        </div>
+        <div class="card">
+          <div class="card-title">🧠 Context Memory</div>
+          <div class="card-desc">Maintains preceding dialogue details across a sliding window of 10 conversation turns.</div>
+        </div>
+        <div class="card blue">
+          <div class="card-title">📈 Confidence Metrics</div>
+          <div class="card-desc">Auto-classifies cosine similarity scores into High/Medium/Low badges.</div>
+        </div>
+        <div class="card">
+          <div class="card-title">💡 Suggestion Chips</div>
+          <div class="card-desc">Dynamically infers 3 context-relevant questions to guide visitor flows.</div>
+        </div>
+        <div class="card">
+          <div class="card-title">⚙️ Robust Error Handling</div>
+          <div class="card-desc">Instantly falls back to raw database templates if the external LLM API is rate-limited.</div>
+        </div>
+        <div class="card blue">
+          <div class="card-title">📱 Premium UI Interface</div>
+          <div class="card-desc">Responsive styling with real-time health checks and status indicators.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDE 9: System Demonstration -->
+    <div class="slide">
+      <span class="slide-num">Slide 9</span>
+      <div class="slide-header">
+        <h2 class="slide-title">System Demonstration</h2>
+        <p class="slide-subtitle">Sample query validation outputs and grounding metrics</p>
+      </div>
+      <div class="grid-split">
+        <div class="chatbot-mockup">
+          <div class="chatbot-header">
+            <div class="status-dot"></div>
+            <span>Virtual Receptionist</span>
+          </div>
+          <div class="chatbot-messages" style="padding: 15px; gap: 10px;">
+            <div class="chat-bubble user" style="padding: 8px 12px; font-size: 10.5px;">Can non-members register for yoga classes?</div>
+            <div class="chat-bubble ai" style="padding: 10px 14px; font-size: 10.5px; border-color: var(--accent-green);">
+              Yes, non-members can attend yoga. A guest class pass costs Rs 500 per session. Bookings must be made in person at the front desk prior to class start. Bringing a member partner is not required.
+            </div>
+            <div class="grounded-badge" style="padding: 8px; font-size: 9px;">
+              ✓ Grounded context matching. Confidence: HIGH (0.88)<br/>
+              Source: [Classes > Yoga Registration]
+            </div>
+          </div>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 16px;">
+          <div class="card" style="padding: 15px;">
+            <div class="card-title">🔍 Grounded Processing</div>
+            <div class="card-desc">Queries are converted to dense vectors and matched against the 225-chunk JSON knowledge store. Top 5 matches are extracted and structured in a strict prompt container for generation.</div>
+          </div>
+          <div class="card blue" style="padding: 15px;">
+            <div class="card-title">🛡️ prompt Enforcement</div>
+            <div class="card-desc">System constraints block response synthesis if context data is missing, successfully preventing guess-work, personal training advice, or off-topic conversational claims.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDE 10: Technical Challenges -->
+    <div class="slide">
+      <span class="slide-num">Slide 10</span>
+      <div class="slide-header">
+        <h2 class="slide-title">Technical Challenges & Solutions</h2>
+        <p class="slide-subtitle">Implementation workarounds resolving key runtime issues</p>
+      </div>
+      <div class="grid-2x2">
+        <div class="card red">
+          <div class="card-title">⚠️ LLM API Quota Exhaustion</div>
+          <div class="card-desc">
+            <strong>Issue:</strong> Gemini free tier throws 429 exceptions under rapid concurrent inquiries.<br/>
+            <strong>Solution:</strong> Implemented direct local fallback to serve raw text template records.
+          </div>
+        </div>
+        <div class="card blue">
+          <div class="card-title">📁 Vector DB Path Resolution</div>
+          <div class="card-desc">
+            <strong>Issue:</strong> Folder paths fail when testing across different directories or OS environments.<br/>
+            <strong>Solution:</strong> Dynamically resolved absolute DB paths relative to app script folder.
+          </div>
+        </div>
+        <div class="card red">
+          <div class="card-title">🛡️ Out-of-Bounds Queries</div>
+          <div class="card-desc">
+            <strong>Issue:</strong> Users prompt the receptionist to generate diet templates or medical claims.<br/>
+            <strong>Solution:</strong> Prompt bounds enforce early rejection, keeping replies focused on basic facts.
+          </div>
+        </div>
+        <div class="card blue">
+          <div class="card-title">⏳ API Request Latency</div>
+          <div class="card-desc">
+            <strong>Issue:</strong> Slow network retry parameters freeze the browser chat panel for up to 90 seconds.<br/>
+            <strong>Solution:</strong> Set short client timeouts with early cancel parameters, triggering local fallback immediately.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDE 11: Results & Achievements -->
+    <div class="slide">
+      <span class="slide-num">Slide 11</span>
+      <div class="slide-header">
+        <h2 class="slide-title">Results & Achievements</h2>
+        <p class="slide-subtitle">Performance indicators of the IRONGRID AI RAG implementation</p>
+      </div>
+      <div class="kpi-container">
+        <div class="kpi-card">
+          <div class="kpi-val green">225</div>
+          <div class="kpi-label">Knowledge Chunks</div>
+          <div class="kpi-desc">Verified facts stored in the ChromaDB vector database index.</div>
+        </div>
+        <div class="kpi-card blue">
+          <div class="kpi-val blue">10-Turn</div>
+          <div class="kpi-label">Session Memory</div>
+          <div class="kpi-desc">History retention memory depth for tracking conversations.</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-val green">Top-5</div>
+          <div class="kpi-label">Retrieval Context</div>
+          <div class="kpi-desc">Number of similarity matches fetched to ground the LLM prompt.</div>
+        </div>
+        <div class="kpi-card blue">
+          <div class="kpi-val blue">Real-Time</div>
+          <div class="kpi-label">Response Latency</div>
+          <div class="kpi-desc">Average API answer compilation latency of under 0.8 seconds.</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-val green">Grounded</div>
+          <div class="kpi-label">Zero Hallucination</div>
+          <div class="kpi-desc">Answers verified as strictly grounded inside system context.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDE 12: Future Scope -->
+    <div class="slide">
+      <span class="slide-num">Slide 12</span>
+      <div class="slide-header">
+        <h2 class="slide-title">Future Scope</h2>
+        <p class="slide-subtitle">Roadmap features to expand the virtual receptionist assistant ecosystem</p>
+      </div>
+      <div class="grid-3x2">
+        <div class="card">
+          <div class="card-title">🎙️ Voice Assistant</div>
+          <div class="card-desc">Support hands-free voice inquiries using Speech-to-Text translation layers.</div>
+        </div>
+        <div class="card">
+          <div class="card-title">🖥️ Admin Dashboard</div>
+          <div class="card-desc">Develop web portal enabling front-desk staff to edit knowledge base JSON files.</div>
+        </div>
+        <div class="card">
+          <div class="card-title">💬 WhatsApp / Telegram</div>
+          <div class="card-desc">Integrate RAG pipeline directly into messaging channels for omni-channel access.</div>
+        </div>
+        <div class="card blue">
+          <div class="card-title">☁️ Cloud Deployment</div>
+          <div class="card-desc">Deploy dockerized services on GCP or AWS infrastructure for load balancing.</div>
+        </div>
+        <div class="card blue">
+          <div class="card-title">🌐 Multilingual Support</div>
+          <div class="card-desc">Implement translation models to process queries and output answers in local languages.</div>
+        </div>
+        <div class="card blue">
+          <div class="card-title">💳 Membership Booking</div>
+          <div class="card-desc">Provide direct payment integration links inside the chatbot window.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDE 13: Thank You -->
+    <div class="slide end-slide">
+      <span class="slide-num">Slide 13</span>
+      <h1 class="end-title">THANK YOU</h1>
+      <p class="end-subtitle">Questions & Discussion</p>
+      <div class="qr-box">
+        <span>🤖</span>
+        Scan to View<br/>GitHub Repo
+      </div>
+      <div class="end-meta">
+        Email: <strong>albin.mathew@student.com</strong> &nbsp;|&nbsp; Repository: <strong>github.com/albinmathew2004/irongrid-rag</strong>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
