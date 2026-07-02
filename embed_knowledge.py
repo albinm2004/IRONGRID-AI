@@ -69,15 +69,23 @@ def embed_and_store(chunks, model_name, db_dir, collection_name):
         metadata={"hnsw:space": "cosine"}
     )
 
-    # If collection already has data, clear it to avoid duplication
+    # If collection already has data, recreate it to optimize index storage and clear records
     existing_count = collection.count()
     if existing_count > 0:
-        print(f"[*] Clearing existing {existing_count} documents from collection...")
-        # Get all IDs and delete them
-        all_ids = collection.get()["ids"]
-        if all_ids:
-            collection.delete(ids=all_ids)
-        print("[OK] Collection cleared.")
+        print(f"[*] Drop and recreate collection to optimize index storage (clearing {existing_count} documents)...")
+        try:
+            client.delete_collection(collection_name)
+            collection = client.create_collection(
+                name=collection_name,
+                metadata={"hnsw:space": "cosine"}
+            )
+            print("[OK] Collection re-created and cleared.")
+        except Exception as e:
+            print(f"[WARN] Failed to drop collection: {e}. Clearing manually...")
+            all_ids = collection.get()["ids"]
+            if all_ids:
+                collection.delete(ids=all_ids)
+            print("[OK] Collection cleared manually.")
 
     print(f"\n[*] Loading embedding model: {model_name}")
     model = SentenceTransformer(model_name)

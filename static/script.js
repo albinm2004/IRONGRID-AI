@@ -10,7 +10,7 @@ const sendBtn = document.getElementById('sendBtn');
 const statusBadge = document.getElementById('statusBadge');
 
 // ── State ──────────────────────────────────────────────────
-let sessionId = crypto.randomUUID ? crypto.randomUUID() : Date.now().toString(36) + Math.random().toString(36).slice(2);
+let sessionId = (typeof crypto !== 'undefined' && crypto.randomUUID) ? crypto.randomUUID() : Date.now().toString(36) + Math.random().toString(36).slice(2);
 let isProcessing = false;
 
 // ── Open / Closed Status ───────────────────────────────────
@@ -318,10 +318,29 @@ document.querySelectorAll('.chip').forEach(chip => {
 });
 
 // ── Initial Greeting ───────────────────────────────────────
-(function init() {
+async function init() {
+  try {
+    const response = await fetch('/api/greeting');
+    if (response.ok) {
+      const data = await response.json();
+      if (data && data.message) {
+        addMessage('bot', data.message);
+        if (data.is_open !== undefined) {
+          statusBadge.className = 'status-badge ' + (data.is_open ? 'open' : 'closed');
+          statusBadge.innerHTML = '<span class="status-dot"></span>' + (data.is_open ? 'OPEN NOW' : 'CLOSED NOW');
+        }
+        return;
+      }
+    }
+  } catch (err) {
+    console.warn('Could not load greeting from API, using client fallback:', err);
+  }
+
+  // Fallback if backend greeting fails
   const greeting = getTimeGreeting();
   addMessage(
     'bot',
     `${greeting}! Welcome to **IRONGRID**. I'm your virtual front desk assistant.\n\nAsk me about **membership plans**, **equipment**, **timings**, **trainers**, **classes**, **safety**, or anything about the gym — or tap a quick option above!`
   );
-})();
+}
+init();

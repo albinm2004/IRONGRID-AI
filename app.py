@@ -198,8 +198,8 @@ def call_gemini(system_prompt: str, messages: list[dict]) -> str:
                 break
                 
             if attempt < MAX_RETRIES:
-                wait_time = 15 * attempt  # 15s, 30s
-                logger.info(f"Rate limited. Waiting {wait_time}s before retry...")
+                wait_time = 2 * attempt  # 2s, 4s delay is enough for transient network issues
+                logger.info(f"API issue. Waiting {wait_time}s before retry...")
                 import time
                 time.sleep(wait_time)
 
@@ -345,7 +345,14 @@ def chat():
             context="No relevant information found in the knowledge base."
         )
 
-    # 3. Get conversation history
+    # 3. Get conversation history & prune oldest sessions if capacity exceeded to prevent memory leaks
+    if len(sessions) > 500:
+        # Evict the 100 oldest sessions
+        oldest_keys = list(sessions.keys())[:100]
+        for k in oldest_keys:
+            sessions.pop(k, None)
+        logger.info("Session store capacity reached: pruned 100 oldest sessions.")
+
     if session_id not in sessions:
         sessions[session_id] = []
     history = sessions[session_id]
